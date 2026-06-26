@@ -1,0 +1,662 @@
+[
+  {
+    "model": "grades.student",
+    "pk": 1,
+    "fields": {
+      "student_id": "STU001",
+      "first_name": "Fouad",
+      "last_name": "BOUZOUF",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 2,
+    "fields": {
+      "student_id": "STU002",
+      "first_name": "Ilyas",
+      "last_name": "AMALLAH",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 3,
+    "fields": {
+      "student_id": "STU003",
+      "first_name": "Rayhane",
+      "last_name": "CHARKI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 4,
+    "fields": {
+      "student_id": "STU004",
+      "first_name": "Mohamed",
+      "last_name": "SOUSSAN",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 5,
+    "fields": {
+      "student_id": "STU005",
+      "first_name": "Mohamed",
+      "last_name": "OUASS",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 6,
+    "fields": {
+      "student_id": "STU006",
+      "first_name": "Younes",
+      "last_name": "AL HAMMOUTI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 7,
+    "fields": {
+      "student_id": "STU007",
+      "first_name": "Asmae",
+      "last_name": "EL BAIRI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 8,
+    "fields": {
+      "student_id": "STU008",
+      "first_name": "Hanae",
+      "last_name": "EL AZOUZI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 9,
+    "fields": {
+      "student_id": "STU009",
+      "first_name": "Fatima Zahra",
+      "last_name": "CHAHI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 10,
+    "fields": {
+      "student_id": "STU010",
+      "first_name": "Ilham",
+      "last_name": "ZEAIMI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 11,
+    "fields": {
+      "student_id": "STU011",
+      "first_name": "Zaynab",
+      "last_name": "ZIYANI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 12,
+    "fields": {
+      "student_id": "STU012",
+      "first_name": "Aya",
+      "last_name": "EL HAIMEUR",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 13,
+    "fields": {
+      "student_id": "STU013",
+      "first_name": "Chaimae",
+      "last_name": "EL BAKKALI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 14,
+    "fields": {
+      "student_id": "STU014",
+      "first_name": "Hanae",
+      "last_name": "DIANI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 15,
+    "fields": {
+      "student_id": "STU015",
+      "first_name": "Asma",
+      "last_name": "LAMMOUTI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 16,
+    "fields": {
+      "student_id": "STU016",
+      "first_name": "Youssra",
+      "last_name": "HABSA",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 17,
+    "fields": {
+      "student_id": "STU017",
+      "first_name": "Chaymae",
+      "last_name": "BOUYAOUMAD",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 18,
+    "fields": {
+      "student_id": "STU018",
+      "first_name": "Hanane",
+      "last_name": "SELLAMI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 19,
+    "fields": {
+      "student_id": "STU019",
+      "first_name": "Younes",
+      "last_name": "DARKIK",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 20,
+    "fields": {
+      "student_id": "STU020",
+      "first_name": "Aymane",
+      "last_name": "BUSSRU",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 21,
+    "fields": {
+      "student_id": "STU021",
+      "first_name": "Anas",
+      "last_name": "LOUITIFI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 22,
+    "fields": {
+      "student_id": "STU022",
+      "first_name": "Fatima Zahra",
+      "last_name": "KADIRI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 23,
+    "fields": {
+      "student_id": "STU023",
+      "first_name": "Souhaila",
+      "last_name": "SERHROUCHNI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 24,
+    "fields": {
+      "student_id": "STU024",
+      "first_name": "Yasmina",
+      "last_name": "ELMRABET",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 25,
+    "fields": {
+      "student_id": "STU025",
+      "first_name": "Mohamed Reda",
+      "last_name": "EL-ABBADI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 26,
+    "fields": {
+      "student_id": "STU026",
+      "first_name": "Ayoub",
+      "last_name": "EL BARRAMI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 27,
+    "fields": {
+      "student_id": "STU027",
+      "first_name": "Youssef",
+      "last_name": "EL GHOUL",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 28,
+    "fields": {
+      "student_id": "STU028",
+      "first_name": "Kawthar",
+      "last_name": "SAMAR",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 29,
+    "fields": {
+      "student_id": "STU029",
+      "first_name": "Laila",
+      "last_name": "BOUZIANE",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 30,
+    "fields": {
+      "student_id": "STU030",
+      "first_name": "Houda",
+      "last_name": "CHEBKI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 31,
+    "fields": {
+      "student_id": "STU031",
+      "first_name": "Rana",
+      "last_name": "LAKUIRI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 32,
+    "fields": {
+      "student_id": "STU032",
+      "first_name": "Ikrame",
+      "last_name": "KHALIFI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 33,
+    "fields": {
+      "student_id": "STU033",
+      "first_name": "Oumaima",
+      "last_name": "HAMDAOUI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 34,
+    "fields": {
+      "student_id": "STU034",
+      "first_name": "Hanae",
+      "last_name": "SINDIBAD",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 35,
+    "fields": {
+      "student_id": "STU035",
+      "first_name": "Wafae",
+      "last_name": "KARIM",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 36,
+    "fields": {
+      "student_id": "STU036",
+      "first_name": "Meryem",
+      "last_name": "EL-MEZGUELDY",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 37,
+    "fields": {
+      "student_id": "STU037",
+      "first_name": "Abir",
+      "last_name": "EL HAZZAOUI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 38,
+    "fields": {
+      "student_id": "STU038",
+      "first_name": "Zineb",
+      "last_name": "BOUTAQMANI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 39,
+    "fields": {
+      "student_id": "STU039",
+      "first_name": "Hajar",
+      "last_name": "EL MAHKAK",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 40,
+    "fields": {
+      "student_id": "STU040",
+      "first_name": "Chaymae",
+      "last_name": "LAABIDI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 41,
+    "fields": {
+      "student_id": "STU041",
+      "first_name": "Fatima Zahra",
+      "last_name": "BENKADA",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 42,
+    "fields": {
+      "student_id": "STU042",
+      "first_name": "Hajar",
+      "last_name": "LABYAD",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 43,
+    "fields": {
+      "student_id": "STU043",
+      "first_name": "Aya",
+      "last_name": "SANDIDA",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 44,
+    "fields": {
+      "student_id": "STU044",
+      "first_name": "Ayoub",
+      "last_name": "ABARKAN",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 45,
+    "fields": {
+      "student_id": "STU045",
+      "first_name": "Amal",
+      "last_name": "LAKHAL",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 46,
+    "fields": {
+      "student_id": "STU046",
+      "first_name": "Abir",
+      "last_name": "KERKRI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 47,
+    "fields": {
+      "student_id": "STU047",
+      "first_name": "Amal",
+      "last_name": "YAAGOUB",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 48,
+    "fields": {
+      "student_id": "STU048",
+      "first_name": "Ilham",
+      "last_name": "EL JAMGHILI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 49,
+    "fields": {
+      "student_id": "STU049",
+      "first_name": "Loubna",
+      "last_name": "BOUAISSA",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 50,
+    "fields": {
+      "student_id": "STU050",
+      "first_name": "Nouhaila",
+      "last_name": "EL HAMDAOUI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 51,
+    "fields": {
+      "student_id": "STU051",
+      "first_name": "Fatima Zahra",
+      "last_name": "AFKIR",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 52,
+    "fields": {
+      "student_id": "STU052",
+      "first_name": "Hafsa",
+      "last_name": "EL-GHARKAKI",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 53,
+    "fields": {
+      "student_id": "STU053",
+      "first_name": "Salma",
+      "last_name": "MAHFOUD",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 54,
+    "fields": {
+      "student_id": "STU054",
+      "first_name": "Oussama",
+      "last_name": "NAZIH",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  },
+  {
+    "model": "grades.student",
+    "pk": 55,
+    "fields": {
+      "student_id": "STU055",
+      "first_name": "Mustapha",
+      "last_name": "CHAJJIA",
+      "email": "",
+      "date_of_birth": null,
+      "enrollment_date": "2020-09-01"
+    }
+  }
+]

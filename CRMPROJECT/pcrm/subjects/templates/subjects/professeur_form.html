@@ -1,0 +1,63 @@
+{% extends 'subjects/base.html' %}
+
+{% block title %}
+{% if object %}Modifier{% else %}Ajouter{% endif %} un professeur - Gestion Scolaire
+{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-white">
+                <h1 class="h4 mb-0">
+                    <i class="bi bi-person me-2"></i>
+                    {% if object %}Modifier le professeur{% else %}Ajouter un professeur{% endif %}
+                </h1>
+            </div>
+            <div class="card-body">
+                <form method="post" novalidate>
+                    {% csrf_token %}
+                    {% if form.non_field_errors %}
+                        <div class="alert alert-danger">{{ form.non_field_errors }}</div>
+                    {% endif %}
+
+                    <div class="row g-3">
+                        {% for field in form %}
+                        <div class="col-md-{% if field.name == 'actif' %}12{% else %}6{% endif %}">
+                            {% if field.field.widget.input_type == 'checkbox' %}
+                            <div class="form-check mt-2">
+                                {{ field }}
+                                <label class="form-check-label" for="{{ field.id_for_label }}">
+                                    {{ field.label }}
+                                </label>
+                            </div>
+                            {% else %}
+                            <label for="{{ field.id_for_label }}" class="form-label">
+                                {{ field.label }}{% if field.field.required %} *{% endif %}
+                            </label>
+                            {{ field }}
+                            {% endif %}
+                            {% if field.errors %}
+                                <div class="text-danger small mt-1">{{ field.errors }}</div>
+                            {% endif %}
+                            {% if field.help_text %}
+                                <div class="form-text">{{ field.help_text }}</div>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+
+                    <div class="d-flex gap-2 mt-4">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-check-lg me-1"></i>Enregistrer
+                        </button>
+                        <a href="{% url 'subjects:professeur_list' %}" class="btn btn-outline-secondary">
+                            Annuler
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

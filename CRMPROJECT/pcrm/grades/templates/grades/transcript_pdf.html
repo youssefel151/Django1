@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <style>
+        @page {
+            size: A4;
+            margin: 0.8cm 1.2cm;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            color: #000000;
+            font-size: 9px;
+            line-height: 1.2;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            padding: 2px 4px;
+            vertical-align: middle;
+        }
+
+        .title-bar {
+            background-color: #000000;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 12px;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 6px;
+            border: 2px solid #000000;
+        }
+
+        .info-row td {
+            padding: 2px 4px;
+            font-size: 9px;
+        }
+
+        .info-row td.label {
+            font-weight: bold;
+            white-space: nowrap;
+            width: 20%;
+        }
+
+        .grades-table th {
+            background-color: #0b2545;
+            color: #ffffff;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 8px;
+            text-align: center;
+            border: 1px solid #333333;
+            padding: 4px 2px;
+        }
+
+        .grades-table td {
+            border: 1px solid #333333;
+            font-size: 8px;
+            text-align: center;
+            padding: 3px 2px;
+        }
+
+        .grades-table td.left {
+            text-align: left;
+        }
+
+        .row-shaded {
+            background-color: #f4f4f4;
+        }
+
+        .summary-row td {
+            font-weight: bold;
+            font-size: 9px;
+            border: 1px solid #333333;
+            padding: 4px 6px;
+        }
+
+        .summary-row td.label {
+            background-color: #e8e8e8;
+            width: 30%;
+        }
+
+        .decision-valid {
+            color: #006400;
+            font-weight: bold;
+        }
+
+        .decision-fail {
+            color: #8b0000;
+            font-weight: bold;
+        }
+
+        .footer-line {
+            border-top: 1px solid #000000;
+            margin-top: 15px;
+            padding-top: 6px;
+            font-size: 8px;
+            text-align: center;
+            color: #666666;
+        }
+
+        .ref-number {
+            font-size: 8px;
+            text-align: center;
+            color: #666666;
+            margin-top: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Page Header Image -->
+    {% if header_image_path %}
+    <div style="text-align: center; margin-bottom: 4px;">
+        <img src="{{ header_image_path }}" style="width: 100%;" alt="Header">
+    </div>
+    {% endif %}
+    <div style="border-top: 2px solid #000000; margin: 0 0 10px 0;"></div>
+
+    <!-- Document Title Bar -->
+    <table class="title-bar">
+        <tr>
+            <td>RELEVÉ DE NOTES — {{ transcript.semester }}</td>
+        </tr>
+    </table>
+
+    <!-- Student Info Block -->
+    <table style="margin-top: 10px;">
+        <tr class="info-row">
+            <td class="label">Matricule :</td>
+            <td>{{ transcript.student.student_id }}</td>
+            <td class="label">Nom :</td>
+            <td>{{ transcript.student.last_name }}</td>
+        </tr>
+        <tr class="info-row">
+            <td class="label">Prénom(s) :</td>
+            <td>{{ transcript.student.first_name }}</td>
+            <td class="label">Date de naissance :</td>
+            <td>{{ transcript.student.date_of_birth|date:"d/m/Y"|default:"-" }}</td>
+        </tr>
+        <tr class="info-row">
+            <td class="label">Date d'inscription :</td>
+            <td>{{ transcript.student.enrollment_date|date:"d/m/Y"|default:"-" }}</td>
+            <td class="label">Filière :</td>
+            <td>Digital Marketing &amp; Management</td>
+        </tr>
+    </table>
+
+    <!-- Grades Table -->
+    <table class="grades-table" style="margin-top: 8px;">
+        <thead>
+            <tr>
+                <th style="width: 15%;">Codes</th>
+                <th style="width: 35%;">Matières</th>
+                <th style="width: 12%;">Note /20</th>
+                <th style="width: 12%;">Crédit</th>
+                <th style="width: 14%;">Note pondérée</th>
+                <th style="width: 12%;">Décision</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for course in data.courses %}
+            <tr class="{% cycle '' 'row-shaded' %}">
+                <td>{{ course.course_code }}</td>
+                <td class="left">{{ course.course_name }}</td>
+                <td>{{ course.score_20|floatformat:2 }}</td>
+                <td>{{ course.credits }}</td>
+                <td>{{ course.note_ponderee|floatformat:2 }}</td>
+                <td>
+                    {% if course.score_20 >= 10 %}
+                        <span style="color: #006400;">Validé</span>
+                    {% else %}
+                        <span style="color: #8b0000;">Ajourné</span>
+                    {% endif %}
+                </td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="6" style="text-align: center; padding: 10px;">Aucune note enregistrée pour ce semestre.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <!-- Footer Summary Rows -->
+    <table style="margin-top: 8px;">
+        <tr class="summary-row">
+            <td class="label">Total crédits</td>
+            <td>{{ data.total_credits }}</td>
+        </tr>
+        <tr class="summary-row">
+            <td class="label">Total note pondérée</td>
+            <td>{{ total_note_ponderee|floatformat:2 }}</td>
+        </tr>
+        <tr class="summary-row">
+            <td class="label">Total semestre</td>
+            <td>{{ transcript.semester }}</td>
+        </tr>
+        <tr class="summary-row">
+            <td class="label">Moyenne générale</td>
+            <td>{{ data.moyenne_20|floatformat:2 }} /20</td>
+        </tr>
+        <tr class="summary-row">
+            <td class="label">Décision du jury</td>
+            <td>
+                {% if data.moyenne_20 >= 10 %}
+                    <span class="decision-valid">Validé</span>
+                {% else %}
+                    <span class="decision-fail">Ajourné</span>
+                {% endif %}
+            </td>
+        </tr>
+    </table>
+
+    <!-- Signature Area -->
+    <table style="margin-top: 15px; width: 100%;">
+        <tr>
+            <td style="width: 50%; vertical-align: top; padding: 5px;">
+                <div style="border: 2px dashed #666666; width: 100px; height: 60px; text-align: center; padding: 15px 8px; font-size: 8px; color: #666666;">Cachet de l'établissement</div>
+            </td>
+            <td style="width: 50%; vertical-align: top; padding: 5px; text-align: right;">
+                <div style="font-size: 9px;">
+                    Fait à Nador, le {{ transcript.issue_date|date:"d F Y"|default:"16 juin 2026" }}<br><br>
+                    Le Directeur des Études
+                    {% if stamp_image_path %}
+                        <br><br>
+                        <img src="{{ stamp_image_path }}" style="height: 30px;" alt="Signature">
+                    {% endif %}
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Document Footer -->
+    <div class="footer-line">
+        FPN de Nador — Université Mohammed Premier — Relevé officiel généré électroniquement
+    </div>
+    <div class="ref-number">
+        N° Réf. : REL-{{ transcript.student.student_id }}-{{ transcript.id }}
+    </div>
+
+</body>
+</html>

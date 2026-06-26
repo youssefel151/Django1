@@ -1,0 +1,33 @@
+{% extends 'gestion_ensg/base.html' %}
+
+{% block content %}
+
+<h2>Details Enseignant</h2>
+
+<p><strong>Nom :</strong> {{ enseignant.nom }}</p>
+
+<p><strong>Prenom :</strong> {{ enseignant.prenom }}</p>
+
+<p><strong>Email :</strong> {{ enseignant.email }}</p>
+
+<p><strong>Telephone :</strong> {{ enseignant.telephone }}</p>
+
+<p><strong>Specialite :</strong> {{ enseignant.specialite }}</p>
+
+<p><strong>Date recrutement :</strong> {{ enseignant.date_recrutement }}</p>
+
+<div class="d-flex gap-2 mt-4">
+    <a href="{% url 'gestion_ensg:update' enseignant.id %}" class="btn btn-primary">
+        Modifier
+    </a>
+
+    <a href="{% url 'gestion_ensg:delete' enseignant.id %}" class="btn btn-danger">
+        Supprimer
+    </a>
+
+    <a href="{% url 'gestion_ensg:home' %}" class="btn btn-secondary">
+        Retour
+    </a>
+</div>
+
+{% endblock %}

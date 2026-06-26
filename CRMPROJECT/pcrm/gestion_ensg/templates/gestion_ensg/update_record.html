@@ -1,0 +1,19 @@
+{% extends 'gestion_ensg/base.html' %}
+
+{% block content %}
+
+<h2>Modifier Enseignant</h2>
+
+<form method="POST">
+
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+    <button type="submit">
+        Modifier
+    </button>
+
+</form>
+
+{% endblock %}

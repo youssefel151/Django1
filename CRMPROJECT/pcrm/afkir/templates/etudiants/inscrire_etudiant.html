@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Inscription AFKIR - School CRM{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-8 col-lg-6">
+    <div class="card shadow-sm p-4">
+      <h1 class="h4 mb-3">Inscrire un etudiant</h1>
+      <form method="POST">
+        {% csrf_token %}
+        <div class="p-3 bg-light rounded border mb-3">
+          {{ form.as_p }}
+        </div>
+        <div class="d-grid gap-2">
+          <button type="submit" class="btn btn-success">Valider l'inscription</button>
+          <a href="{% url 'afkir:liste_etudiants' %}" class="btn btn-outline-secondary">Annuler</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

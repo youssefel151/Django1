@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% block title %}Notes - {{ student.first_name }} {{ student.last_name }}{% endblock %}
+{% block content %}
+
+<div class="card">
+    <h2>{{ student.first_name }} {{ student.last_name }} <span style="color:var(--text-muted); font-size:0.9rem;">({{ student.student_id }})</span></h2>
+
+    <div class="card-row">
+        <div class="stat">
+            <div class="stat-value">{{ overall_average }}/100</div>
+            <div class="stat-label">Moyenne Générale</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value">{{ gpa }}/4.0</div>
+            <div class="stat-label">GPA</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value">{{ grades.count }}</div>
+            <div class="stat-label">Notes Enregistrées</div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <h3>Résultats Académiques</h3>
+
+    <form method="get" class="search-bar">
+        <input type="text" name="q" placeholder="Rechercher par examen ou cours..." value="{{ query }}">
+        <select name="course">
+            <option value="">Tous les cours</option>
+            {% for c in courses %}
+                <option value="{{ c.id }}" {% if course_filter == c.id|stringformat:"s" %}selected{% endif %}>{{ c.code }} - {{ c.name }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit" class="btn">Filtrer</button>
+        {% if query or course_filter %}
+            <a href="{% url 'grades:student_grades' student.id %}" class="btn btn-muted">Effacer</a>
+        {% endif %}
+    </form>
+
+    {% if grades %}
+    <table>
+        <thead>
+            <tr>
+                <th>Cours</th>
+                <th>Examen</th>
+                <th>Type</th>
+                <th>Date</th>
+                <th>Note</th>
+                <th>Max</th>
+                <th>Lettre</th>
+                <th>Commentaires</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for grade in grades %}
+            <tr>
+                <td>{{ grade.exam.course.code }}</td>
+                <td>{{ grade.exam.name }}</td>
+                <td>{{ grade.exam.get_exam_type_display }}</td>
+                <td>{{ grade.exam.date|date:"d/m/Y" }}</td>
+                <td>{{ grade.score }}</td>
+                <td>{{ grade.exam.max_score }}</td>
+                <td><span class="badge badge-{{ grade.letter_grade }}">{{ grade.letter_grade }}</span></td>
+                <td>{{ grade.comments|default:"-" }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <div class="empty-state">
+        <p>Aucune note trouvée{% if query or course_filter %} pour ces critères{% else %} pour le moment{% endif %}.</p>
+    </div>
+    {% endif %}
+
+    <div style="margin-top: 20px;">
+        <a href="{% url 'grades:add_grade' %}?student={{ student.id }}" class="btn">+ Ajouter une note</a>
+        <a href="{% url 'grades:create_transcript' student.id %}" class="btn btn-gold">Générer un relevé de notes</a>
+        <a href="{% url 'grades:student_list' %}" class="btn btn-muted">Retour à la liste</a>
+    </div>
+</div>
+
+{% if transcripts %}
+<div class="card">
+    <h3>Relevés de Notes Générés</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Semestre</th>
+                <th>Date d'émission</th>
+                <th>GPA</th>
+                <th>Crédits</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for t in transcripts %}
+            <tr>
+                <td>{{ t.semester }}</td>
+                <td>{{ t.issue_date|date:"d/m/Y" }}</td>
+                <td>{{ t.gpa }}/4.0</td>
+                <td>{{ t.total_credits }}</td>
+                <td><a href="{% url 'grades:transcript_detail' t.id %}" class="btn">Voir</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endif %}
+
+{% endblock %}

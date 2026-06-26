@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4" style="max-width: 640px;">
+  <div class="card p-4 shadow-sm">
+    <h3 class="text-dark fw-bold mb-4">Ajouter un etudiant</h3>
+    <form method="POST">
+      {% csrf_token %}
+      {% for field in form %}
+        <div class="mb-3">
+          <label class="form-label text-secondary fw-semibold">{{ field.label }}</label>
+          {{ field }}
+          {% if field.errors %}
+            <div class="text-danger small">{{ field.errors }}</div>
+          {% endif %}
+        </div>
+      {% endfor %}
+      <button type="submit" class="btn btn-primary w-100 mt-2 fw-bold">Enregistrer l'etudiant</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

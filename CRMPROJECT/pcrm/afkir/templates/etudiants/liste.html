@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+
+{% block title %}Inscriptions - School CRM{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+  <div>
+    <h1 class="h3 mb-1">Gestion des inscriptions</h1>
+    <p class="text-muted mb-0">Etudiants AFKIR, codes Massar et inscriptions aux filieres.</p>
+  </div>
+  <div class="d-flex gap-2">
+    <a href="{% url 'afkir:ajouter_etudiant' %}" class="btn btn-primary">Nouvel etudiant</a>
+    <a href="{% url 'afkir:inscrire_etudiant' %}" class="btn btn-success">Nouvelle inscription</a>
+  </div>
+</div>
+
+<div class="card shadow-sm mb-4">
+  <div class="card-header bg-white">
+    <h5 class="card-title mb-0">Informations personnelles des etudiants</h5>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-hover align-middle mb-0">
+      <thead class="table-light">
+        <tr>
+          <th>Code Massar</th>
+          <th>Nom</th>
+          <th>Prenom</th>
+          <th>Email</th>
+          <th>Telephone</th>
+          <th>Date de naissance</th>
+          <th class="text-end">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for etudiant in etudiants %}
+          <tr>
+            <td><span class="badge bg-secondary">{{ etudiant.code_massar }}</span></td>
+            <td class="fw-bold">{{ etudiant.nom|upper }}</td>
+            <td>{{ etudiant.prenom }}</td>
+            <td><a href="mailto:{{ etudiant.email }}" class="text-decoration-none">{{ etudiant.email }}</a></td>
+            <td>{{ etudiant.telephone|default:"-" }}</td>
+            <td>{{ etudiant.date_naissance|date:"d/m/Y" }}</td>
+            <td class="text-end table-actions">
+              <a href="{% url 'afkir:modifier_etudiant' etudiant.pk %}" class="btn btn-sm btn-outline-primary">Modifier</a>
+              <a href="{% url 'afkir:supprimer_etudiant' etudiant.pk %}" class="btn btn-sm btn-outline-danger">Supprimer</a>
+            </td>
+          </tr>
+        {% empty %}
+          <tr>
+            <td colspan="7" class="text-center text-muted py-4">Aucun etudiant enregistre.</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card shadow-sm">
+  <div class="card-header bg-white">
+    <h5 class="card-title mb-0">Liste des inscriptions aux filieres</h5>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-hover align-middle mb-0">
+      <thead class="table-light">
+        <tr>
+          <th>Etudiant</th>
+          <th>Filiere</th>
+          <th>Niveau</th>
+          <th>Date d'inscription</th>
+          <th>Statut</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for inscription in inscriptions %}
+          <tr>
+            <td class="fw-bold">{{ inscription.etudiant.nom }} {{ inscription.etudiant.prenom }}</td>
+            <td>{{ inscription.filiere }}</td>
+            <td><span class="badge bg-light text-dark border">{{ inscription.niveau }}</span></td>
+            <td>{{ inscription.date_inscription|date:"d/m/Y" }}</td>
+            <td>
+              {% if inscription.statut == "Inscrit" or inscription.statut == "Actif" or inscription.statut == "Valide" %}
+                <span class="badge bg-success">{{ inscription.statut }}</span>
+              {% else %}
+                <span class="badge bg-warning text-dark">{{ inscription.statut }}</span>
+              {% endif %}
+            </td>
+          </tr>
+        {% empty %}
+          <tr>
+            <td colspan="5" class="text-center text-muted py-4">Aucune inscription active.</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

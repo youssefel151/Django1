@@ -1,0 +1,6052 @@
+[
+  {
+    "model": "grades.grade",
+    "pk": 1,
+    "fields": {
+      "student": 1,
+      "exam": 1,
+      "score": 78.89,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 2,
+    "fields": {
+      "student": 1,
+      "exam": 2,
+      "score": 46.33,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 3,
+    "fields": {
+      "student": 1,
+      "exam": 3,
+      "score": 59.58,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 4,
+    "fields": {
+      "student": 1,
+      "exam": 4,
+      "score": 56.83,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 5,
+    "fields": {
+      "student": 1,
+      "exam": 5,
+      "score": 84.03,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 6,
+    "fields": {
+      "student": 1,
+      "exam": 6,
+      "score": 80.87,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 7,
+    "fields": {
+      "student": 1,
+      "exam": 7,
+      "score": 92.29,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 8,
+    "fields": {
+      "student": 1,
+      "exam": 8,
+      "score": 49.61,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 9,
+    "fields": {
+      "student": 1,
+      "exam": 9,
+      "score": 67.36,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 10,
+    "fields": {
+      "student": 1,
+      "exam": 10,
+      "score": 46.58,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 11,
+    "fields": {
+      "student": 2,
+      "exam": 1,
+      "score": 56.59,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 12,
+    "fields": {
+      "student": 2,
+      "exam": 2,
+      "score": 71.78,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 13,
+    "fields": {
+      "student": 2,
+      "exam": 3,
+      "score": 46.41,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 14,
+    "fields": {
+      "student": 2,
+      "exam": 4,
+      "score": 55.54,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 15,
+    "fields": {
+      "student": 2,
+      "exam": 5,
+      "score": 79.44,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 16,
+    "fields": {
+      "student": 2,
+      "exam": 6,
+      "score": 73.88,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 17,
+    "fields": {
+      "student": 2,
+      "exam": 7,
+      "score": 56.68,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 18,
+    "fields": {
+      "student": 2,
+      "exam": 8,
+      "score": 76.23,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 19,
+    "fields": {
+      "student": 2,
+      "exam": 9,
+      "score": 87.9,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 20,
+    "fields": {
+      "student": 2,
+      "exam": 10,
+      "score": 45.34,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 21,
+    "fields": {
+      "student": 3,
+      "exam": 1,
+      "score": 87.71,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 22,
+    "fields": {
+      "student": 3,
+      "exam": 2,
+      "score": 82.0,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 23,
+    "fields": {
+      "student": 3,
+      "exam": 3,
+      "score": 63.03,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 24,
+    "fields": {
+      "student": 3,
+      "exam": 4,
+      "score": 53.24,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 25,
+    "fields": {
+      "student": 3,
+      "exam": 5,
+      "score": 95.73,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 26,
+    "fields": {
+      "student": 3,
+      "exam": 6,
+      "score": 62.84,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 27,
+    "fields": {
+      "student": 3,
+      "exam": 7,
+      "score": 49.92,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 28,
+    "fields": {
+      "student": 3,
+      "exam": 8,
+      "score": 50.13,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 29,
+    "fields": {
+      "student": 3,
+      "exam": 9,
+      "score": 89.92,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 30,
+    "fields": {
+      "student": 3,
+      "exam": 10,
+      "score": 77.0,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 31,
+    "fields": {
+      "student": 4,
+      "exam": 1,
+      "score": 87.78,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 32,
+    "fields": {
+      "student": 4,
+      "exam": 2,
+      "score": 83.68,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 33,
+    "fields": {
+      "student": 4,
+      "exam": 3,
+      "score": 73.42,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 34,
+    "fields": {
+      "student": 4,
+      "exam": 4,
+      "score": 96.58,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 35,
+    "fields": {
+      "student": 4,
+      "exam": 5,
+      "score": 65.06,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 36,
+    "fields": {
+      "student": 4,
+      "exam": 6,
+      "score": 74.26,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 37,
+    "fields": {
+      "student": 4,
+      "exam": 7,
+      "score": 88.96,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 38,
+    "fields": {
+      "student": 4,
+      "exam": 8,
+      "score": 77.78,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 39,
+    "fields": {
+      "student": 4,
+      "exam": 9,
+      "score": 90.67,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 40,
+    "fields": {
+      "student": 4,
+      "exam": 10,
+      "score": 75.6,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 41,
+    "fields": {
+      "student": 5,
+      "exam": 1,
+      "score": 82.34,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 42,
+    "fields": {
+      "student": 5,
+      "exam": 2,
+      "score": 47.43,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 43,
+    "fields": {
+      "student": 5,
+      "exam": 3,
+      "score": 57.08,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 44,
+    "fields": {
+      "student": 5,
+      "exam": 4,
+      "score": 60.34,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 45,
+    "fields": {
+      "student": 5,
+      "exam": 5,
+      "score": 49.23,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 46,
+    "fields": {
+      "student": 5,
+      "exam": 6,
+      "score": 57.34,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 47,
+    "fields": {
+      "student": 5,
+      "exam": 7,
+      "score": 50.35,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 48,
+    "fields": {
+      "student": 5,
+      "exam": 8,
+      "score": 59.73,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 49,
+    "fields": {
+      "student": 5,
+      "exam": 9,
+      "score": 78.69,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 50,
+    "fields": {
+      "student": 5,
+      "exam": 10,
+      "score": 64.34,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 51,
+    "fields": {
+      "student": 6,
+      "exam": 1,
+      "score": 64.62,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 52,
+    "fields": {
+      "student": 6,
+      "exam": 2,
+      "score": 56.1,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 53,
+    "fields": {
+      "student": 6,
+      "exam": 3,
+      "score": 59.15,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 54,
+    "fields": {
+      "student": 6,
+      "exam": 4,
+      "score": 94.64,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 55,
+    "fields": {
+      "student": 6,
+      "exam": 5,
+      "score": 79.35,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 56,
+    "fields": {
+      "student": 6,
+      "exam": 6,
+      "score": 77.28,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 57,
+    "fields": {
+      "student": 6,
+      "exam": 7,
+      "score": 54.07,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 58,
+    "fields": {
+      "student": 6,
+      "exam": 8,
+      "score": 83.64,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 59,
+    "fields": {
+      "student": 6,
+      "exam": 9,
+      "score": 53.66,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 60,
+    "fields": {
+      "student": 6,
+      "exam": 10,
+      "score": 65.11,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 61,
+    "fields": {
+      "student": 7,
+      "exam": 1,
+      "score": 97.44,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 62,
+    "fields": {
+      "student": 7,
+      "exam": 2,
+      "score": 78.92,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 63,
+    "fields": {
+      "student": 7,
+      "exam": 3,
+      "score": 74.52,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 64,
+    "fields": {
+      "student": 7,
+      "exam": 4,
+      "score": 81.28,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 65,
+    "fields": {
+      "student": 7,
+      "exam": 5,
+      "score": 89.67,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 66,
+    "fields": {
+      "student": 7,
+      "exam": 6,
+      "score": 86.13,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 67,
+    "fields": {
+      "student": 7,
+      "exam": 7,
+      "score": 57.14,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 68,
+    "fields": {
+      "student": 7,
+      "exam": 8,
+      "score": 46.7,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 69,
+    "fields": {
+      "student": 7,
+      "exam": 9,
+      "score": 61.72,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 70,
+    "fields": {
+      "student": 7,
+      "exam": 10,
+      "score": 59.19,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 71,
+    "fields": {
+      "student": 8,
+      "exam": 1,
+      "score": 56.18,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 72,
+    "fields": {
+      "student": 8,
+      "exam": 2,
+      "score": 94.97,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 73,
+    "fields": {
+      "student": 8,
+      "exam": 3,
+      "score": 91.45,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 74,
+    "fields": {
+      "student": 8,
+      "exam": 4,
+      "score": 61.68,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 75,
+    "fields": {
+      "student": 8,
+      "exam": 5,
+      "score": 79.74,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 76,
+    "fields": {
+      "student": 8,
+      "exam": 6,
+      "score": 65.97,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 77,
+    "fields": {
+      "student": 8,
+      "exam": 7,
+      "score": 93.47,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 78,
+    "fields": {
+      "student": 8,
+      "exam": 8,
+      "score": 69.32,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 79,
+    "fields": {
+      "student": 8,
+      "exam": 9,
+      "score": 59.04,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 80,
+    "fields": {
+      "student": 8,
+      "exam": 10,
+      "score": 58.07,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 81,
+    "fields": {
+      "student": 9,
+      "exam": 1,
+      "score": 74.75,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 82,
+    "fields": {
+      "student": 9,
+      "exam": 2,
+      "score": 58.93,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 83,
+    "fields": {
+      "student": 9,
+      "exam": 3,
+      "score": 75.98,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 84,
+    "fields": {
+      "student": 9,
+      "exam": 4,
+      "score": 92.58,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 85,
+    "fields": {
+      "student": 9,
+      "exam": 5,
+      "score": 66.17,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 86,
+    "fields": {
+      "student": 9,
+      "exam": 6,
+      "score": 56.62,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 87,
+    "fields": {
+      "student": 9,
+      "exam": 7,
+      "score": 97.87,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 88,
+    "fields": {
+      "student": 9,
+      "exam": 8,
+      "score": 72.0,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 89,
+    "fields": {
+      "student": 9,
+      "exam": 9,
+      "score": 49.82,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 90,
+    "fields": {
+      "student": 9,
+      "exam": 10,
+      "score": 47.5,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 91,
+    "fields": {
+      "student": 10,
+      "exam": 1,
+      "score": 50.81,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 92,
+    "fields": {
+      "student": 10,
+      "exam": 2,
+      "score": 78.25,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 93,
+    "fields": {
+      "student": 10,
+      "exam": 3,
+      "score": 86.98,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 94,
+    "fields": {
+      "student": 10,
+      "exam": 4,
+      "score": 67.37,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 95,
+    "fields": {
+      "student": 10,
+      "exam": 5,
+      "score": 48.37,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 96,
+    "fields": {
+      "student": 10,
+      "exam": 6,
+      "score": 65.23,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 97,
+    "fields": {
+      "student": 10,
+      "exam": 7,
+      "score": 97.79,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 98,
+    "fields": {
+      "student": 10,
+      "exam": 8,
+      "score": 73.04,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 99,
+    "fields": {
+      "student": 10,
+      "exam": 9,
+      "score": 96.47,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 100,
+    "fields": {
+      "student": 10,
+      "exam": 10,
+      "score": 90.62,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 101,
+    "fields": {
+      "student": 11,
+      "exam": 1,
+      "score": 45.61,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 102,
+    "fields": {
+      "student": 11,
+      "exam": 2,
+      "score": 83.2,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 103,
+    "fields": {
+      "student": 11,
+      "exam": 3,
+      "score": 81.13,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 104,
+    "fields": {
+      "student": 11,
+      "exam": 4,
+      "score": 73.46,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 105,
+    "fields": {
+      "student": 11,
+      "exam": 5,
+      "score": 59.14,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 106,
+    "fields": {
+      "student": 11,
+      "exam": 6,
+      "score": 78.97,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 107,
+    "fields": {
+      "student": 11,
+      "exam": 7,
+      "score": 50.91,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 108,
+    "fields": {
+      "student": 11,
+      "exam": 8,
+      "score": 68.04,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 109,
+    "fields": {
+      "student": 11,
+      "exam": 9,
+      "score": 69.05,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 110,
+    "fields": {
+      "student": 11,
+      "exam": 10,
+      "score": 95.55,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 111,
+    "fields": {
+      "student": 12,
+      "exam": 1,
+      "score": 91.42,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 112,
+    "fields": {
+      "student": 12,
+      "exam": 2,
+      "score": 58.96,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 113,
+    "fields": {
+      "student": 12,
+      "exam": 3,
+      "score": 71.53,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 114,
+    "fields": {
+      "student": 12,
+      "exam": 4,
+      "score": 54.47,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 115,
+    "fields": {
+      "student": 12,
+      "exam": 5,
+      "score": 93.37,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 116,
+    "fields": {
+      "student": 12,
+      "exam": 6,
+      "score": 91.14,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 117,
+    "fields": {
+      "student": 12,
+      "exam": 7,
+      "score": 60.82,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 118,
+    "fields": {
+      "student": 12,
+      "exam": 8,
+      "score": 78.86,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 119,
+    "fields": {
+      "student": 12,
+      "exam": 9,
+      "score": 77.28,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 120,
+    "fields": {
+      "student": 12,
+      "exam": 10,
+      "score": 53.1,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 121,
+    "fields": {
+      "student": 13,
+      "exam": 1,
+      "score": 85.41,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 122,
+    "fields": {
+      "student": 13,
+      "exam": 2,
+      "score": 73.59,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 123,
+    "fields": {
+      "student": 13,
+      "exam": 3,
+      "score": 86.27,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 124,
+    "fields": {
+      "student": 13,
+      "exam": 4,
+      "score": 73.11,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 125,
+    "fields": {
+      "student": 13,
+      "exam": 5,
+      "score": 45.03,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 126,
+    "fields": {
+      "student": 13,
+      "exam": 6,
+      "score": 62.18,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 127,
+    "fields": {
+      "student": 13,
+      "exam": 7,
+      "score": 46.03,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 128,
+    "fields": {
+      "student": 13,
+      "exam": 8,
+      "score": 94.24,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 129,
+    "fields": {
+      "student": 13,
+      "exam": 9,
+      "score": 91.57,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 130,
+    "fields": {
+      "student": 13,
+      "exam": 10,
+      "score": 89.08,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 131,
+    "fields": {
+      "student": 14,
+      "exam": 1,
+      "score": 61.3,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 132,
+    "fields": {
+      "student": 14,
+      "exam": 2,
+      "score": 48.07,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 133,
+    "fields": {
+      "student": 14,
+      "exam": 3,
+      "score": 91.53,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 134,
+    "fields": {
+      "student": 14,
+      "exam": 4,
+      "score": 95.19,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 135,
+    "fields": {
+      "student": 14,
+      "exam": 5,
+      "score": 49.54,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 136,
+    "fields": {
+      "student": 14,
+      "exam": 6,
+      "score": 70.76,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 137,
+    "fields": {
+      "student": 14,
+      "exam": 7,
+      "score": 48.67,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 138,
+    "fields": {
+      "student": 14,
+      "exam": 8,
+      "score": 85.31,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 139,
+    "fields": {
+      "student": 14,
+      "exam": 9,
+      "score": 85.59,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 140,
+    "fields": {
+      "student": 14,
+      "exam": 10,
+      "score": 51.8,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 141,
+    "fields": {
+      "student": 15,
+      "exam": 1,
+      "score": 70.19,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 142,
+    "fields": {
+      "student": 15,
+      "exam": 2,
+      "score": 74.14,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 143,
+    "fields": {
+      "student": 15,
+      "exam": 3,
+      "score": 59.05,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 144,
+    "fields": {
+      "student": 15,
+      "exam": 4,
+      "score": 91.24,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 145,
+    "fields": {
+      "student": 15,
+      "exam": 5,
+      "score": 67.43,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 146,
+    "fields": {
+      "student": 15,
+      "exam": 6,
+      "score": 56.23,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 147,
+    "fields": {
+      "student": 15,
+      "exam": 7,
+      "score": 73.58,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 148,
+    "fields": {
+      "student": 15,
+      "exam": 8,
+      "score": 83.69,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 149,
+    "fields": {
+      "student": 15,
+      "exam": 9,
+      "score": 55.66,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 150,
+    "fields": {
+      "student": 15,
+      "exam": 10,
+      "score": 61.52,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 151,
+    "fields": {
+      "student": 16,
+      "exam": 1,
+      "score": 97.74,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 152,
+    "fields": {
+      "student": 16,
+      "exam": 2,
+      "score": 79.44,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 153,
+    "fields": {
+      "student": 16,
+      "exam": 3,
+      "score": 68.22,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 154,
+    "fields": {
+      "student": 16,
+      "exam": 4,
+      "score": 72.43,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 155,
+    "fields": {
+      "student": 16,
+      "exam": 5,
+      "score": 51.41,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 156,
+    "fields": {
+      "student": 16,
+      "exam": 6,
+      "score": 56.91,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 157,
+    "fields": {
+      "student": 16,
+      "exam": 7,
+      "score": 62.92,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 158,
+    "fields": {
+      "student": 16,
+      "exam": 8,
+      "score": 76.18,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 159,
+    "fields": {
+      "student": 16,
+      "exam": 9,
+      "score": 57.2,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 160,
+    "fields": {
+      "student": 16,
+      "exam": 10,
+      "score": 56.67,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 161,
+    "fields": {
+      "student": 17,
+      "exam": 1,
+      "score": 48.76,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 162,
+    "fields": {
+      "student": 17,
+      "exam": 2,
+      "score": 78.45,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 163,
+    "fields": {
+      "student": 17,
+      "exam": 3,
+      "score": 57.13,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 164,
+    "fields": {
+      "student": 17,
+      "exam": 4,
+      "score": 92.99,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 165,
+    "fields": {
+      "student": 17,
+      "exam": 5,
+      "score": 90.56,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 166,
+    "fields": {
+      "student": 17,
+      "exam": 6,
+      "score": 48.76,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 167,
+    "fields": {
+      "student": 17,
+      "exam": 7,
+      "score": 57.61,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 168,
+    "fields": {
+      "student": 17,
+      "exam": 8,
+      "score": 80.46,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 169,
+    "fields": {
+      "student": 17,
+      "exam": 9,
+      "score": 56.35,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 170,
+    "fields": {
+      "student": 17,
+      "exam": 10,
+      "score": 52.01,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 171,
+    "fields": {
+      "student": 18,
+      "exam": 1,
+      "score": 94.58,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 172,
+    "fields": {
+      "student": 18,
+      "exam": 2,
+      "score": 75.27,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 173,
+    "fields": {
+      "student": 18,
+      "exam": 3,
+      "score": 70.05,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 174,
+    "fields": {
+      "student": 18,
+      "exam": 4,
+      "score": 86.58,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 175,
+    "fields": {
+      "student": 18,
+      "exam": 5,
+      "score": 87.8,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 176,
+    "fields": {
+      "student": 18,
+      "exam": 6,
+      "score": 55.09,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 177,
+    "fields": {
+      "student": 18,
+      "exam": 7,
+      "score": 50.14,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 178,
+    "fields": {
+      "student": 18,
+      "exam": 8,
+      "score": 67.85,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 179,
+    "fields": {
+      "student": 18,
+      "exam": 9,
+      "score": 67.45,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 180,
+    "fields": {
+      "student": 18,
+      "exam": 10,
+      "score": 69.75,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 181,
+    "fields": {
+      "student": 19,
+      "exam": 1,
+      "score": 83.64,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 182,
+    "fields": {
+      "student": 19,
+      "exam": 2,
+      "score": 80.69,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 183,
+    "fields": {
+      "student": 19,
+      "exam": 3,
+      "score": 97.16,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 184,
+    "fields": {
+      "student": 19,
+      "exam": 4,
+      "score": 50.22,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 185,
+    "fields": {
+      "student": 19,
+      "exam": 5,
+      "score": 66.34,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 186,
+    "fields": {
+      "student": 19,
+      "exam": 6,
+      "score": 62.98,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 187,
+    "fields": {
+      "student": 19,
+      "exam": 7,
+      "score": 90.67,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 188,
+    "fields": {
+      "student": 19,
+      "exam": 8,
+      "score": 58.18,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 189,
+    "fields": {
+      "student": 19,
+      "exam": 9,
+      "score": 55.08,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 190,
+    "fields": {
+      "student": 19,
+      "exam": 10,
+      "score": 68.78,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 191,
+    "fields": {
+      "student": 20,
+      "exam": 1,
+      "score": 67.36,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 192,
+    "fields": {
+      "student": 20,
+      "exam": 2,
+      "score": 59.76,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 193,
+    "fields": {
+      "student": 20,
+      "exam": 3,
+      "score": 58.24,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 194,
+    "fields": {
+      "student": 20,
+      "exam": 4,
+      "score": 93.93,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 195,
+    "fields": {
+      "student": 20,
+      "exam": 5,
+      "score": 68.49,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 196,
+    "fields": {
+      "student": 20,
+      "exam": 6,
+      "score": 90.65,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 197,
+    "fields": {
+      "student": 20,
+      "exam": 7,
+      "score": 74.17,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 198,
+    "fields": {
+      "student": 20,
+      "exam": 8,
+      "score": 47.68,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 199,
+    "fields": {
+      "student": 20,
+      "exam": 9,
+      "score": 97.96,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 200,
+    "fields": {
+      "student": 20,
+      "exam": 10,
+      "score": 89.31,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 201,
+    "fields": {
+      "student": 21,
+      "exam": 1,
+      "score": 96.36,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 202,
+    "fields": {
+      "student": 21,
+      "exam": 2,
+      "score": 94.1,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 203,
+    "fields": {
+      "student": 21,
+      "exam": 3,
+      "score": 89.98,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 204,
+    "fields": {
+      "student": 21,
+      "exam": 4,
+      "score": 53.81,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 205,
+    "fields": {
+      "student": 21,
+      "exam": 5,
+      "score": 70.74,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 206,
+    "fields": {
+      "student": 21,
+      "exam": 6,
+      "score": 56.33,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 207,
+    "fields": {
+      "student": 21,
+      "exam": 7,
+      "score": 66.26,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 208,
+    "fields": {
+      "student": 21,
+      "exam": 8,
+      "score": 48.11,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 209,
+    "fields": {
+      "student": 21,
+      "exam": 9,
+      "score": 65.09,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 210,
+    "fields": {
+      "student": 21,
+      "exam": 10,
+      "score": 97.22,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 211,
+    "fields": {
+      "student": 22,
+      "exam": 1,
+      "score": 59.06,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 212,
+    "fields": {
+      "student": 22,
+      "exam": 2,
+      "score": 86.56,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 213,
+    "fields": {
+      "student": 22,
+      "exam": 3,
+      "score": 69.12,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 214,
+    "fields": {
+      "student": 22,
+      "exam": 4,
+      "score": 67.42,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 215,
+    "fields": {
+      "student": 22,
+      "exam": 5,
+      "score": 95.74,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 216,
+    "fields": {
+      "student": 22,
+      "exam": 6,
+      "score": 97.76,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 217,
+    "fields": {
+      "student": 22,
+      "exam": 7,
+      "score": 74.46,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 218,
+    "fields": {
+      "student": 22,
+      "exam": 8,
+      "score": 83.08,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 219,
+    "fields": {
+      "student": 22,
+      "exam": 9,
+      "score": 53.2,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 220,
+    "fields": {
+      "student": 22,
+      "exam": 10,
+      "score": 60.73,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 221,
+    "fields": {
+      "student": 23,
+      "exam": 1,
+      "score": 96.34,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 222,
+    "fields": {
+      "student": 23,
+      "exam": 2,
+      "score": 75.7,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 223,
+    "fields": {
+      "student": 23,
+      "exam": 3,
+      "score": 73.74,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 224,
+    "fields": {
+      "student": 23,
+      "exam": 4,
+      "score": 84.64,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 225,
+    "fields": {
+      "student": 23,
+      "exam": 5,
+      "score": 48.03,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 226,
+    "fields": {
+      "student": 23,
+      "exam": 6,
+      "score": 75.96,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 227,
+    "fields": {
+      "student": 23,
+      "exam": 7,
+      "score": 71.65,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 228,
+    "fields": {
+      "student": 23,
+      "exam": 8,
+      "score": 90.19,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 229,
+    "fields": {
+      "student": 23,
+      "exam": 9,
+      "score": 53.34,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 230,
+    "fields": {
+      "student": 23,
+      "exam": 10,
+      "score": 95.92,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 231,
+    "fields": {
+      "student": 24,
+      "exam": 1,
+      "score": 49.25,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 232,
+    "fields": {
+      "student": 24,
+      "exam": 2,
+      "score": 54.85,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 233,
+    "fields": {
+      "student": 24,
+      "exam": 3,
+      "score": 76.54,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 234,
+    "fields": {
+      "student": 24,
+      "exam": 4,
+      "score": 80.79,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 235,
+    "fields": {
+      "student": 24,
+      "exam": 5,
+      "score": 57.47,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 236,
+    "fields": {
+      "student": 24,
+      "exam": 6,
+      "score": 51.35,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 237,
+    "fields": {
+      "student": 24,
+      "exam": 7,
+      "score": 92.19,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 238,
+    "fields": {
+      "student": 24,
+      "exam": 8,
+      "score": 58.05,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 239,
+    "fields": {
+      "student": 24,
+      "exam": 9,
+      "score": 76.51,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 240,
+    "fields": {
+      "student": 24,
+      "exam": 10,
+      "score": 77.83,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 241,
+    "fields": {
+      "student": 25,
+      "exam": 1,
+      "score": 67.22,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 242,
+    "fields": {
+      "student": 25,
+      "exam": 2,
+      "score": 75.93,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 243,
+    "fields": {
+      "student": 25,
+      "exam": 3,
+      "score": 72.71,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 244,
+    "fields": {
+      "student": 25,
+      "exam": 4,
+      "score": 94.54,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 245,
+    "fields": {
+      "student": 25,
+      "exam": 5,
+      "score": 55.83,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 246,
+    "fields": {
+      "student": 25,
+      "exam": 6,
+      "score": 82.96,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 247,
+    "fields": {
+      "student": 25,
+      "exam": 7,
+      "score": 57.65,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 248,
+    "fields": {
+      "student": 25,
+      "exam": 8,
+      "score": 65.98,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 249,
+    "fields": {
+      "student": 25,
+      "exam": 9,
+      "score": 80.6,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 250,
+    "fields": {
+      "student": 25,
+      "exam": 10,
+      "score": 60.9,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 251,
+    "fields": {
+      "student": 26,
+      "exam": 1,
+      "score": 61.76,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 252,
+    "fields": {
+      "student": 26,
+      "exam": 2,
+      "score": 84.85,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 253,
+    "fields": {
+      "student": 26,
+      "exam": 3,
+      "score": 48.84,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 254,
+    "fields": {
+      "student": 26,
+      "exam": 4,
+      "score": 69.29,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 255,
+    "fields": {
+      "student": 26,
+      "exam": 5,
+      "score": 97.92,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 256,
+    "fields": {
+      "student": 26,
+      "exam": 6,
+      "score": 97.79,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 257,
+    "fields": {
+      "student": 26,
+      "exam": 7,
+      "score": 48.88,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 258,
+    "fields": {
+      "student": 26,
+      "exam": 8,
+      "score": 56.3,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 259,
+    "fields": {
+      "student": 26,
+      "exam": 9,
+      "score": 59.06,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 260,
+    "fields": {
+      "student": 26,
+      "exam": 10,
+      "score": 94.46,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 261,
+    "fields": {
+      "student": 27,
+      "exam": 1,
+      "score": 91.69,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 262,
+    "fields": {
+      "student": 27,
+      "exam": 2,
+      "score": 91.6,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 263,
+    "fields": {
+      "student": 27,
+      "exam": 3,
+      "score": 64.58,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 264,
+    "fields": {
+      "student": 27,
+      "exam": 4,
+      "score": 53.36,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 265,
+    "fields": {
+      "student": 27,
+      "exam": 5,
+      "score": 89.19,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 266,
+    "fields": {
+      "student": 27,
+      "exam": 6,
+      "score": 82.29,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 267,
+    "fields": {
+      "student": 27,
+      "exam": 7,
+      "score": 77.42,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 268,
+    "fields": {
+      "student": 27,
+      "exam": 8,
+      "score": 97.32,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 269,
+    "fields": {
+      "student": 27,
+      "exam": 9,
+      "score": 79.66,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 270,
+    "fields": {
+      "student": 27,
+      "exam": 10,
+      "score": 45.41,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 271,
+    "fields": {
+      "student": 28,
+      "exam": 1,
+      "score": 88.31,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 272,
+    "fields": {
+      "student": 28,
+      "exam": 2,
+      "score": 60.87,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 273,
+    "fields": {
+      "student": 28,
+      "exam": 3,
+      "score": 80.16,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 274,
+    "fields": {
+      "student": 28,
+      "exam": 4,
+      "score": 94.76,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 275,
+    "fields": {
+      "student": 28,
+      "exam": 5,
+      "score": 52.12,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 276,
+    "fields": {
+      "student": 28,
+      "exam": 6,
+      "score": 51.12,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 277,
+    "fields": {
+      "student": 28,
+      "exam": 7,
+      "score": 50.67,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 278,
+    "fields": {
+      "student": 28,
+      "exam": 8,
+      "score": 74.32,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 279,
+    "fields": {
+      "student": 28,
+      "exam": 9,
+      "score": 59.43,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 280,
+    "fields": {
+      "student": 28,
+      "exam": 10,
+      "score": 77.06,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 281,
+    "fields": {
+      "student": 29,
+      "exam": 1,
+      "score": 83.03,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 282,
+    "fields": {
+      "student": 29,
+      "exam": 2,
+      "score": 55.79,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 283,
+    "fields": {
+      "student": 29,
+      "exam": 3,
+      "score": 78.61,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 284,
+    "fields": {
+      "student": 29,
+      "exam": 4,
+      "score": 58.99,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 285,
+    "fields": {
+      "student": 29,
+      "exam": 5,
+      "score": 70.89,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 286,
+    "fields": {
+      "student": 29,
+      "exam": 6,
+      "score": 92.98,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 287,
+    "fields": {
+      "student": 29,
+      "exam": 7,
+      "score": 89.84,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 288,
+    "fields": {
+      "student": 29,
+      "exam": 8,
+      "score": 49.89,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 289,
+    "fields": {
+      "student": 29,
+      "exam": 9,
+      "score": 67.45,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 290,
+    "fields": {
+      "student": 29,
+      "exam": 10,
+      "score": 59.66,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 291,
+    "fields": {
+      "student": 30,
+      "exam": 1,
+      "score": 45.19,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 292,
+    "fields": {
+      "student": 30,
+      "exam": 2,
+      "score": 85.87,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 293,
+    "fields": {
+      "student": 30,
+      "exam": 3,
+      "score": 78.77,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 294,
+    "fields": {
+      "student": 30,
+      "exam": 4,
+      "score": 58.88,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 295,
+    "fields": {
+      "student": 30,
+      "exam": 5,
+      "score": 84.29,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 296,
+    "fields": {
+      "student": 30,
+      "exam": 6,
+      "score": 74.24,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 297,
+    "fields": {
+      "student": 30,
+      "exam": 7,
+      "score": 67.67,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 298,
+    "fields": {
+      "student": 30,
+      "exam": 8,
+      "score": 45.51,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 299,
+    "fields": {
+      "student": 30,
+      "exam": 9,
+      "score": 48.99,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 300,
+    "fields": {
+      "student": 30,
+      "exam": 10,
+      "score": 91.8,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 301,
+    "fields": {
+      "student": 31,
+      "exam": 1,
+      "score": 92.91,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 302,
+    "fields": {
+      "student": 31,
+      "exam": 2,
+      "score": 73.92,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 303,
+    "fields": {
+      "student": 31,
+      "exam": 3,
+      "score": 89.23,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 304,
+    "fields": {
+      "student": 31,
+      "exam": 4,
+      "score": 75.87,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 305,
+    "fields": {
+      "student": 31,
+      "exam": 5,
+      "score": 52.85,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 306,
+    "fields": {
+      "student": 31,
+      "exam": 6,
+      "score": 51.75,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 307,
+    "fields": {
+      "student": 31,
+      "exam": 7,
+      "score": 61.34,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 308,
+    "fields": {
+      "student": 31,
+      "exam": 8,
+      "score": 92.65,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 309,
+    "fields": {
+      "student": 31,
+      "exam": 9,
+      "score": 87.19,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 310,
+    "fields": {
+      "student": 31,
+      "exam": 10,
+      "score": 90.62,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 311,
+    "fields": {
+      "student": 32,
+      "exam": 1,
+      "score": 92.64,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 312,
+    "fields": {
+      "student": 32,
+      "exam": 2,
+      "score": 56.13,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 313,
+    "fields": {
+      "student": 32,
+      "exam": 3,
+      "score": 58.23,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 314,
+    "fields": {
+      "student": 32,
+      "exam": 4,
+      "score": 50.45,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 315,
+    "fields": {
+      "student": 32,
+      "exam": 5,
+      "score": 86.35,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 316,
+    "fields": {
+      "student": 32,
+      "exam": 6,
+      "score": 91.86,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 317,
+    "fields": {
+      "student": 32,
+      "exam": 7,
+      "score": 66.54,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 318,
+    "fields": {
+      "student": 32,
+      "exam": 8,
+      "score": 77.9,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 319,
+    "fields": {
+      "student": 32,
+      "exam": 9,
+      "score": 53.19,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 320,
+    "fields": {
+      "student": 32,
+      "exam": 10,
+      "score": 94.28,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 321,
+    "fields": {
+      "student": 33,
+      "exam": 1,
+      "score": 90.82,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 322,
+    "fields": {
+      "student": 33,
+      "exam": 2,
+      "score": 96.74,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 323,
+    "fields": {
+      "student": 33,
+      "exam": 3,
+      "score": 87.97,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 324,
+    "fields": {
+      "student": 33,
+      "exam": 4,
+      "score": 91.72,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 325,
+    "fields": {
+      "student": 33,
+      "exam": 5,
+      "score": 46.31,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 326,
+    "fields": {
+      "student": 33,
+      "exam": 6,
+      "score": 84.04,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 327,
+    "fields": {
+      "student": 33,
+      "exam": 7,
+      "score": 62.61,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 328,
+    "fields": {
+      "student": 33,
+      "exam": 8,
+      "score": 94.33,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 329,
+    "fields": {
+      "student": 33,
+      "exam": 9,
+      "score": 87.52,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 330,
+    "fields": {
+      "student": 33,
+      "exam": 10,
+      "score": 90.8,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 331,
+    "fields": {
+      "student": 34,
+      "exam": 1,
+      "score": 87.97,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 332,
+    "fields": {
+      "student": 34,
+      "exam": 2,
+      "score": 59.14,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 333,
+    "fields": {
+      "student": 34,
+      "exam": 3,
+      "score": 86.73,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 334,
+    "fields": {
+      "student": 34,
+      "exam": 4,
+      "score": 50.73,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 335,
+    "fields": {
+      "student": 34,
+      "exam": 5,
+      "score": 91.22,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 336,
+    "fields": {
+      "student": 34,
+      "exam": 6,
+      "score": 90.51,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 337,
+    "fields": {
+      "student": 34,
+      "exam": 7,
+      "score": 56.79,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 338,
+    "fields": {
+      "student": 34,
+      "exam": 8,
+      "score": 88.28,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 339,
+    "fields": {
+      "student": 34,
+      "exam": 9,
+      "score": 69.4,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 340,
+    "fields": {
+      "student": 34,
+      "exam": 10,
+      "score": 61.18,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 341,
+    "fields": {
+      "student": 35,
+      "exam": 1,
+      "score": 87.15,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 342,
+    "fields": {
+      "student": 35,
+      "exam": 2,
+      "score": 57.06,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 343,
+    "fields": {
+      "student": 35,
+      "exam": 3,
+      "score": 46.25,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 344,
+    "fields": {
+      "student": 35,
+      "exam": 4,
+      "score": 55.24,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 345,
+    "fields": {
+      "student": 35,
+      "exam": 5,
+      "score": 62.4,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 346,
+    "fields": {
+      "student": 35,
+      "exam": 6,
+      "score": 90.81,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 347,
+    "fields": {
+      "student": 35,
+      "exam": 7,
+      "score": 96.25,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 348,
+    "fields": {
+      "student": 35,
+      "exam": 8,
+      "score": 59.79,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 349,
+    "fields": {
+      "student": 35,
+      "exam": 9,
+      "score": 79.0,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 350,
+    "fields": {
+      "student": 35,
+      "exam": 10,
+      "score": 66.18,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 351,
+    "fields": {
+      "student": 36,
+      "exam": 1,
+      "score": 97.0,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 352,
+    "fields": {
+      "student": 36,
+      "exam": 2,
+      "score": 73.42,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 353,
+    "fields": {
+      "student": 36,
+      "exam": 3,
+      "score": 94.78,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 354,
+    "fields": {
+      "student": 36,
+      "exam": 4,
+      "score": 51.11,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 355,
+    "fields": {
+      "student": 36,
+      "exam": 5,
+      "score": 96.43,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 356,
+    "fields": {
+      "student": 36,
+      "exam": 6,
+      "score": 54.46,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 357,
+    "fields": {
+      "student": 36,
+      "exam": 7,
+      "score": 96.01,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 358,
+    "fields": {
+      "student": 36,
+      "exam": 8,
+      "score": 59.07,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 359,
+    "fields": {
+      "student": 36,
+      "exam": 9,
+      "score": 50.75,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 360,
+    "fields": {
+      "student": 36,
+      "exam": 10,
+      "score": 68.03,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 361,
+    "fields": {
+      "student": 37,
+      "exam": 1,
+      "score": 83.61,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 362,
+    "fields": {
+      "student": 37,
+      "exam": 2,
+      "score": 61.62,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 363,
+    "fields": {
+      "student": 37,
+      "exam": 3,
+      "score": 77.13,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 364,
+    "fields": {
+      "student": 37,
+      "exam": 4,
+      "score": 72.11,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 365,
+    "fields": {
+      "student": 37,
+      "exam": 5,
+      "score": 65.42,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 366,
+    "fields": {
+      "student": 37,
+      "exam": 6,
+      "score": 75.56,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 367,
+    "fields": {
+      "student": 37,
+      "exam": 7,
+      "score": 58.5,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 368,
+    "fields": {
+      "student": 37,
+      "exam": 8,
+      "score": 82.57,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 369,
+    "fields": {
+      "student": 37,
+      "exam": 9,
+      "score": 45.09,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 370,
+    "fields": {
+      "student": 37,
+      "exam": 10,
+      "score": 94.06,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 371,
+    "fields": {
+      "student": 38,
+      "exam": 1,
+      "score": 73.54,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 372,
+    "fields": {
+      "student": 38,
+      "exam": 2,
+      "score": 83.13,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 373,
+    "fields": {
+      "student": 38,
+      "exam": 3,
+      "score": 84.32,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 374,
+    "fields": {
+      "student": 38,
+      "exam": 4,
+      "score": 80.54,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 375,
+    "fields": {
+      "student": 38,
+      "exam": 5,
+      "score": 64.3,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 376,
+    "fields": {
+      "student": 38,
+      "exam": 6,
+      "score": 48.71,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 377,
+    "fields": {
+      "student": 38,
+      "exam": 7,
+      "score": 80.2,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 378,
+    "fields": {
+      "student": 38,
+      "exam": 8,
+      "score": 62.5,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 379,
+    "fields": {
+      "student": 38,
+      "exam": 9,
+      "score": 61.64,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 380,
+    "fields": {
+      "student": 38,
+      "exam": 10,
+      "score": 89.94,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 381,
+    "fields": {
+      "student": 39,
+      "exam": 1,
+      "score": 83.15,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 382,
+    "fields": {
+      "student": 39,
+      "exam": 2,
+      "score": 60.92,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 383,
+    "fields": {
+      "student": 39,
+      "exam": 3,
+      "score": 61.39,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 384,
+    "fields": {
+      "student": 39,
+      "exam": 4,
+      "score": 66.64,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 385,
+    "fields": {
+      "student": 39,
+      "exam": 5,
+      "score": 66.33,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 386,
+    "fields": {
+      "student": 39,
+      "exam": 6,
+      "score": 60.67,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 387,
+    "fields": {
+      "student": 39,
+      "exam": 7,
+      "score": 51.75,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 388,
+    "fields": {
+      "student": 39,
+      "exam": 8,
+      "score": 67.28,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 389,
+    "fields": {
+      "student": 39,
+      "exam": 9,
+      "score": 94.84,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 390,
+    "fields": {
+      "student": 39,
+      "exam": 10,
+      "score": 80.9,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 391,
+    "fields": {
+      "student": 40,
+      "exam": 1,
+      "score": 92.85,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 392,
+    "fields": {
+      "student": 40,
+      "exam": 2,
+      "score": 77.62,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 393,
+    "fields": {
+      "student": 40,
+      "exam": 3,
+      "score": 60.95,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 394,
+    "fields": {
+      "student": 40,
+      "exam": 4,
+      "score": 74.04,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 395,
+    "fields": {
+      "student": 40,
+      "exam": 5,
+      "score": 45.02,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 396,
+    "fields": {
+      "student": 40,
+      "exam": 6,
+      "score": 60.21,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 397,
+    "fields": {
+      "student": 40,
+      "exam": 7,
+      "score": 67.78,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 398,
+    "fields": {
+      "student": 40,
+      "exam": 8,
+      "score": 75.74,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 399,
+    "fields": {
+      "student": 40,
+      "exam": 9,
+      "score": 79.7,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 400,
+    "fields": {
+      "student": 40,
+      "exam": 10,
+      "score": 69.64,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 401,
+    "fields": {
+      "student": 41,
+      "exam": 1,
+      "score": 68.43,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 402,
+    "fields": {
+      "student": 41,
+      "exam": 2,
+      "score": 56.33,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 403,
+    "fields": {
+      "student": 41,
+      "exam": 3,
+      "score": 70.08,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 404,
+    "fields": {
+      "student": 41,
+      "exam": 4,
+      "score": 92.76,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 405,
+    "fields": {
+      "student": 41,
+      "exam": 5,
+      "score": 87.19,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 406,
+    "fields": {
+      "student": 41,
+      "exam": 6,
+      "score": 53.99,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 407,
+    "fields": {
+      "student": 41,
+      "exam": 7,
+      "score": 49.49,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 408,
+    "fields": {
+      "student": 41,
+      "exam": 8,
+      "score": 72.32,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 409,
+    "fields": {
+      "student": 41,
+      "exam": 9,
+      "score": 78.55,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 410,
+    "fields": {
+      "student": 41,
+      "exam": 10,
+      "score": 62.76,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 411,
+    "fields": {
+      "student": 42,
+      "exam": 1,
+      "score": 88.38,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 412,
+    "fields": {
+      "student": 42,
+      "exam": 2,
+      "score": 84.81,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 413,
+    "fields": {
+      "student": 42,
+      "exam": 3,
+      "score": 80.66,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 414,
+    "fields": {
+      "student": 42,
+      "exam": 4,
+      "score": 56.91,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 415,
+    "fields": {
+      "student": 42,
+      "exam": 5,
+      "score": 55.55,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 416,
+    "fields": {
+      "student": 42,
+      "exam": 6,
+      "score": 46.29,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 417,
+    "fields": {
+      "student": 42,
+      "exam": 7,
+      "score": 57.98,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 418,
+    "fields": {
+      "student": 42,
+      "exam": 8,
+      "score": 70.18,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 419,
+    "fields": {
+      "student": 42,
+      "exam": 9,
+      "score": 90.04,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 420,
+    "fields": {
+      "student": 42,
+      "exam": 10,
+      "score": 48.86,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 421,
+    "fields": {
+      "student": 43,
+      "exam": 1,
+      "score": 66.97,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 422,
+    "fields": {
+      "student": 43,
+      "exam": 2,
+      "score": 78.38,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 423,
+    "fields": {
+      "student": 43,
+      "exam": 3,
+      "score": 55.31,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 424,
+    "fields": {
+      "student": 43,
+      "exam": 4,
+      "score": 81.91,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 425,
+    "fields": {
+      "student": 43,
+      "exam": 5,
+      "score": 71.2,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 426,
+    "fields": {
+      "student": 43,
+      "exam": 6,
+      "score": 57.93,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 427,
+    "fields": {
+      "student": 43,
+      "exam": 7,
+      "score": 79.77,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 428,
+    "fields": {
+      "student": 43,
+      "exam": 8,
+      "score": 45.29,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 429,
+    "fields": {
+      "student": 43,
+      "exam": 9,
+      "score": 84.8,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 430,
+    "fields": {
+      "student": 43,
+      "exam": 10,
+      "score": 85.81,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 431,
+    "fields": {
+      "student": 44,
+      "exam": 1,
+      "score": 50.65,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 432,
+    "fields": {
+      "student": 44,
+      "exam": 2,
+      "score": 67.53,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 433,
+    "fields": {
+      "student": 44,
+      "exam": 3,
+      "score": 54.32,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 434,
+    "fields": {
+      "student": 44,
+      "exam": 4,
+      "score": 95.77,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 435,
+    "fields": {
+      "student": 44,
+      "exam": 5,
+      "score": 72.45,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 436,
+    "fields": {
+      "student": 44,
+      "exam": 6,
+      "score": 47.66,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 437,
+    "fields": {
+      "student": 44,
+      "exam": 7,
+      "score": 58.21,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 438,
+    "fields": {
+      "student": 44,
+      "exam": 8,
+      "score": 89.96,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 439,
+    "fields": {
+      "student": 44,
+      "exam": 9,
+      "score": 69.19,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 440,
+    "fields": {
+      "student": 44,
+      "exam": 10,
+      "score": 87.48,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 441,
+    "fields": {
+      "student": 45,
+      "exam": 1,
+      "score": 80.38,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 442,
+    "fields": {
+      "student": 45,
+      "exam": 2,
+      "score": 97.36,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 443,
+    "fields": {
+      "student": 45,
+      "exam": 3,
+      "score": 76.56,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 444,
+    "fields": {
+      "student": 45,
+      "exam": 4,
+      "score": 95.35,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 445,
+    "fields": {
+      "student": 45,
+      "exam": 5,
+      "score": 92.25,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 446,
+    "fields": {
+      "student": 45,
+      "exam": 6,
+      "score": 77.47,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 447,
+    "fields": {
+      "student": 45,
+      "exam": 7,
+      "score": 83.12,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 448,
+    "fields": {
+      "student": 45,
+      "exam": 8,
+      "score": 71.75,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 449,
+    "fields": {
+      "student": 45,
+      "exam": 9,
+      "score": 89.02,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 450,
+    "fields": {
+      "student": 45,
+      "exam": 10,
+      "score": 74.04,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 451,
+    "fields": {
+      "student": 46,
+      "exam": 1,
+      "score": 92.55,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 452,
+    "fields": {
+      "student": 46,
+      "exam": 2,
+      "score": 84.41,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 453,
+    "fields": {
+      "student": 46,
+      "exam": 3,
+      "score": 70.16,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 454,
+    "fields": {
+      "student": 46,
+      "exam": 4,
+      "score": 58.74,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 455,
+    "fields": {
+      "student": 46,
+      "exam": 5,
+      "score": 58.1,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 456,
+    "fields": {
+      "student": 46,
+      "exam": 6,
+      "score": 78.8,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 457,
+    "fields": {
+      "student": 46,
+      "exam": 7,
+      "score": 85.59,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 458,
+    "fields": {
+      "student": 46,
+      "exam": 8,
+      "score": 72.63,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 459,
+    "fields": {
+      "student": 46,
+      "exam": 9,
+      "score": 78.22,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 460,
+    "fields": {
+      "student": 46,
+      "exam": 10,
+      "score": 59.55,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 461,
+    "fields": {
+      "student": 47,
+      "exam": 1,
+      "score": 49.11,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 462,
+    "fields": {
+      "student": 47,
+      "exam": 2,
+      "score": 60.14,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 463,
+    "fields": {
+      "student": 47,
+      "exam": 3,
+      "score": 59.4,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 464,
+    "fields": {
+      "student": 47,
+      "exam": 4,
+      "score": 61.94,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 465,
+    "fields": {
+      "student": 47,
+      "exam": 5,
+      "score": 73.63,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 466,
+    "fields": {
+      "student": 47,
+      "exam": 6,
+      "score": 52.33,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 467,
+    "fields": {
+      "student": 47,
+      "exam": 7,
+      "score": 57.26,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 468,
+    "fields": {
+      "student": 47,
+      "exam": 8,
+      "score": 81.78,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 469,
+    "fields": {
+      "student": 47,
+      "exam": 9,
+      "score": 82.44,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 470,
+    "fields": {
+      "student": 47,
+      "exam": 10,
+      "score": 48.4,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 471,
+    "fields": {
+      "student": 48,
+      "exam": 1,
+      "score": 66.6,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 472,
+    "fields": {
+      "student": 48,
+      "exam": 2,
+      "score": 73.76,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 473,
+    "fields": {
+      "student": 48,
+      "exam": 3,
+      "score": 67.04,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 474,
+    "fields": {
+      "student": 48,
+      "exam": 4,
+      "score": 55.96,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 475,
+    "fields": {
+      "student": 48,
+      "exam": 5,
+      "score": 67.27,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 476,
+    "fields": {
+      "student": 48,
+      "exam": 6,
+      "score": 92.96,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 477,
+    "fields": {
+      "student": 48,
+      "exam": 7,
+      "score": 75.96,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 478,
+    "fields": {
+      "student": 48,
+      "exam": 8,
+      "score": 81.86,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 479,
+    "fields": {
+      "student": 48,
+      "exam": 9,
+      "score": 90.41,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 480,
+    "fields": {
+      "student": 48,
+      "exam": 10,
+      "score": 85.58,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 481,
+    "fields": {
+      "student": 49,
+      "exam": 1,
+      "score": 65.16,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 482,
+    "fields": {
+      "student": 49,
+      "exam": 2,
+      "score": 45.31,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 483,
+    "fields": {
+      "student": 49,
+      "exam": 3,
+      "score": 63.64,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 484,
+    "fields": {
+      "student": 49,
+      "exam": 4,
+      "score": 84.93,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 485,
+    "fields": {
+      "student": 49,
+      "exam": 5,
+      "score": 90.23,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 486,
+    "fields": {
+      "student": 49,
+      "exam": 6,
+      "score": 95.53,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 487,
+    "fields": {
+      "student": 49,
+      "exam": 7,
+      "score": 67.21,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 488,
+    "fields": {
+      "student": 49,
+      "exam": 8,
+      "score": 84.62,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 489,
+    "fields": {
+      "student": 49,
+      "exam": 9,
+      "score": 73.95,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 490,
+    "fields": {
+      "student": 49,
+      "exam": 10,
+      "score": 76.97,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 491,
+    "fields": {
+      "student": 50,
+      "exam": 1,
+      "score": 56.69,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 492,
+    "fields": {
+      "student": 50,
+      "exam": 2,
+      "score": 56.63,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 493,
+    "fields": {
+      "student": 50,
+      "exam": 3,
+      "score": 68.1,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 494,
+    "fields": {
+      "student": 50,
+      "exam": 4,
+      "score": 46.54,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 495,
+    "fields": {
+      "student": 50,
+      "exam": 5,
+      "score": 62.81,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 496,
+    "fields": {
+      "student": 50,
+      "exam": 6,
+      "score": 80.99,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 497,
+    "fields": {
+      "student": 50,
+      "exam": 7,
+      "score": 66.43,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 498,
+    "fields": {
+      "student": 50,
+      "exam": 8,
+      "score": 53.75,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 499,
+    "fields": {
+      "student": 50,
+      "exam": 9,
+      "score": 69.77,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 500,
+    "fields": {
+      "student": 50,
+      "exam": 10,
+      "score": 51.76,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 501,
+    "fields": {
+      "student": 51,
+      "exam": 1,
+      "score": 77.98,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 502,
+    "fields": {
+      "student": 51,
+      "exam": 2,
+      "score": 46.43,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 503,
+    "fields": {
+      "student": 51,
+      "exam": 3,
+      "score": 65.88,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 504,
+    "fields": {
+      "student": 51,
+      "exam": 4,
+      "score": 74.91,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 505,
+    "fields": {
+      "student": 51,
+      "exam": 5,
+      "score": 46.44,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 506,
+    "fields": {
+      "student": 51,
+      "exam": 6,
+      "score": 79.07,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 507,
+    "fields": {
+      "student": 51,
+      "exam": 7,
+      "score": 52.19,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 508,
+    "fields": {
+      "student": 51,
+      "exam": 8,
+      "score": 69.47,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 509,
+    "fields": {
+      "student": 51,
+      "exam": 9,
+      "score": 47.67,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 510,
+    "fields": {
+      "student": 51,
+      "exam": 10,
+      "score": 65.09,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 511,
+    "fields": {
+      "student": 52,
+      "exam": 1,
+      "score": 56.22,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 512,
+    "fields": {
+      "student": 52,
+      "exam": 2,
+      "score": 62.32,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 513,
+    "fields": {
+      "student": 52,
+      "exam": 3,
+      "score": 85.35,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 514,
+    "fields": {
+      "student": 52,
+      "exam": 4,
+      "score": 65.09,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 515,
+    "fields": {
+      "student": 52,
+      "exam": 5,
+      "score": 84.86,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 516,
+    "fields": {
+      "student": 52,
+      "exam": 6,
+      "score": 89.09,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 517,
+    "fields": {
+      "student": 52,
+      "exam": 7,
+      "score": 58.37,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 518,
+    "fields": {
+      "student": 52,
+      "exam": 8,
+      "score": 49.34,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 519,
+    "fields": {
+      "student": 52,
+      "exam": 9,
+      "score": 46.03,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 520,
+    "fields": {
+      "student": 52,
+      "exam": 10,
+      "score": 73.59,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 521,
+    "fields": {
+      "student": 53,
+      "exam": 1,
+      "score": 98.0,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 522,
+    "fields": {
+      "student": 53,
+      "exam": 2,
+      "score": 63.55,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 523,
+    "fields": {
+      "student": 53,
+      "exam": 3,
+      "score": 79.46,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 524,
+    "fields": {
+      "student": 53,
+      "exam": 4,
+      "score": 86.41,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 525,
+    "fields": {
+      "student": 53,
+      "exam": 5,
+      "score": 79.54,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 526,
+    "fields": {
+      "student": 53,
+      "exam": 6,
+      "score": 84.97,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 527,
+    "fields": {
+      "student": 53,
+      "exam": 7,
+      "score": 95.33,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 528,
+    "fields": {
+      "student": 53,
+      "exam": 8,
+      "score": 55.57,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 529,
+    "fields": {
+      "student": 53,
+      "exam": 9,
+      "score": 46.08,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 530,
+    "fields": {
+      "student": 53,
+      "exam": 10,
+      "score": 53.08,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 531,
+    "fields": {
+      "student": 54,
+      "exam": 1,
+      "score": 51.69,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 532,
+    "fields": {
+      "student": 54,
+      "exam": 2,
+      "score": 80.48,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 533,
+    "fields": {
+      "student": 54,
+      "exam": 3,
+      "score": 74.89,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 534,
+    "fields": {
+      "student": 54,
+      "exam": 4,
+      "score": 56.55,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 535,
+    "fields": {
+      "student": 54,
+      "exam": 5,
+      "score": 82.07,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 536,
+    "fields": {
+      "student": 54,
+      "exam": 6,
+      "score": 85.65,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 537,
+    "fields": {
+      "student": 54,
+      "exam": 7,
+      "score": 53.89,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 538,
+    "fields": {
+      "student": 54,
+      "exam": 8,
+      "score": 77.18,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 539,
+    "fields": {
+      "student": 54,
+      "exam": 9,
+      "score": 84.64,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 540,
+    "fields": {
+      "student": 54,
+      "exam": 10,
+      "score": 51.07,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 541,
+    "fields": {
+      "student": 55,
+      "exam": 1,
+      "score": 88.42,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 542,
+    "fields": {
+      "student": 55,
+      "exam": 2,
+      "score": 96.13,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 543,
+    "fields": {
+      "student": 55,
+      "exam": 3,
+      "score": 50.73,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 544,
+    "fields": {
+      "student": 55,
+      "exam": 4,
+      "score": 46.36,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 545,
+    "fields": {
+      "student": 55,
+      "exam": 5,
+      "score": 61.53,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 546,
+    "fields": {
+      "student": 55,
+      "exam": 6,
+      "score": 80.9,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 547,
+    "fields": {
+      "student": 55,
+      "exam": 7,
+      "score": 95.78,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 548,
+    "fields": {
+      "student": 55,
+      "exam": 8,
+      "score": 66.02,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 549,
+    "fields": {
+      "student": 55,
+      "exam": 9,
+      "score": 82.9,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  },
+  {
+    "model": "grades.grade",
+    "pk": 550,
+    "fields": {
+      "student": 55,
+      "exam": 10,
+      "score": 49.03,
+      "date_submitted": "2026-03-01T10:00:00Z",
+      "comments": ""
+    }
+  }
+]

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}Ajouter un Étudiant{% endblock %}
+{% block content %}
+<div class="card">
+    <h2>Ajouter un Nouvel Étudiant</h2>
+
+    <form method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="{{ form.student_id.id_for_label }}">{{ form.student_id.label }}</label>
+            {{ form.student_id }}
+        </div>
+        <div class="form-group">
+            <label for="{{ form.first_name.id_for_label }}">{{ form.first_name.label }}</label>
+            {{ form.first_name }}
+        </div>
+        <div class="form-group">
+            <label for="{{ form.last_name.id_for_label }}">{{ form.last_name.label }}</label>
+            {{ form.last_name }}
+        </div>
+        <div class="form-group">
+            <label for="{{ form.email.id_for_label }}">{{ form.email.label }}</label>
+            {{ form.email }}
+        </div>
+        <div class="form-group">
+            <label for="{{ form.date_of_birth.id_for_label }}">{{ form.date_of_birth.label }}</label>
+            {{ form.date_of_birth }}
+        </div>
+
+        <button type="submit">Enregistrer</button>
+    </form>
+
+    <div style="margin-top: 20px;">
+        <a href="{% url 'grades:student_list' %}" class="btn btn-muted">Annuler</a>
+    </div>
+</div>
+{% endblock %}

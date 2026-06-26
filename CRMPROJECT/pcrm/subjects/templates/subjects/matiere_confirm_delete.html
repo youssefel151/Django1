@@ -1,0 +1,32 @@
+{% extends 'subjects/base.html' %}
+
+{% block title %}Supprimer une matière - Gestion Scolaire{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm">
+            <div class="card-body text-center p-5">
+                <i class="bi bi-exclamation-triangle text-danger fs-1 mb-3"></i>
+                <h1 class="h4">Confirmer la suppression</h1>
+                <p class="text-muted">
+                    Êtes-vous sûr de vouloir supprimer la matière
+                    <strong>{{ object.nom }}</strong> ({{ object.code_matiere }}) ?
+                </p>
+                <p class="text-danger small">
+                    Cette action supprimera également toutes les affectations associées.
+                </p>
+                <form method="post" class="d-flex justify-content-center gap-2 mt-4">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-danger">
+                        <i class="bi bi-trash me-1"></i>Supprimer
+                    </button>
+                    <a href="{% url 'subjects:matiere_list' %}" class="btn btn-outline-secondary">
+                        Annuler
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

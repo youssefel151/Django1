@@ -1,0 +1,24 @@
+{% extends 'gestion_ensg/base.html' %}
+
+{% block content %}
+
+<h2>Supprimer Enseignant</h2>
+
+<p>
+    Voulez-vous vraiment supprimer
+    <strong>{{ enseignant.nom }} {{ enseignant.prenom }}</strong> ?
+</p>
+
+<form method="POST">
+    {% csrf_token %}
+
+    <button type="submit" class="btn btn-danger">
+        Oui, supprimer
+    </button>
+
+    <a href="{% url 'gestion_ensg:home' %}" class="btn btn-secondary">
+        Annuler
+    </a>
+</form>
+
+{% endblock %}

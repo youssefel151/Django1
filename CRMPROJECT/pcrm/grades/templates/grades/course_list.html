@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Cours &amp; Examens{% endblock %}
+{% block content %}
+
+<div class="card">
+    <h2>Cours</h2>
+
+    {% if courses %}
+    <table>
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Nom</th>
+                <th>Crédits</th>
+                <th>Description</th>
+                <th>Examens</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for course in courses %}
+            <tr>
+                <td>{{ course.code }}</td>
+                <td>{{ course.name }}</td>
+                <td>{{ course.credits }}</td>
+                <td>{{ course.description|default:"-"|truncatewords:12 }}</td>
+                <td>{{ course.exams.count }}</td>
+                <td><a href="{% url 'grades:edit_course' course.id %}" class="btn">Modifier</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <div class="empty-state">
+        <p>Aucun cours enregistré.</p>
+    </div>
+    {% endif %}
+
+    <div style="margin-top: 20px;">
+        <a href="{% url 'grades:add_course' %}" class="btn btn-secondary">+ Ajouter un cours</a>
+        <a href="{% url 'grades:add_exam' %}" class="btn btn-gold">+ Ajouter un examen</a>
+    </div>
+</div>
+
+{% endblock %}

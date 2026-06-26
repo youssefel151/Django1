@@ -1,0 +1,152 @@
+[
+  {
+    "model": "grades.course",
+    "pk": 1,
+    "fields": {
+      "code": "DM101",
+      "name": "Digital Marketing Fundamentals",
+      "credits": 4,
+      "description": "Introduction to digital marketing strategies and concepts"
+    }
+  },
+  {
+    "model": "grades.course",
+    "pk": 2,
+    "fields": {
+      "code": "DM102",
+      "name": "Social Media Marketing",
+      "credits": 3,
+      "description": "Social media platforms and marketing strategies"
+    }
+  },
+  {
+    "model": "grades.course",
+    "pk": 3,
+    "fields": {
+      "code": "DM103",
+      "name": "SEO and Content Marketing",
+      "credits": 3,
+      "description": "Search engine optimization and content strategies"
+    }
+  },
+  {
+    "model": "grades.course",
+    "pk": 4,
+    "fields": {
+      "code": "DM104",
+      "name": "Email Marketing Automation",
+      "credits": 2,
+      "description": "Email campaigns and automation tools"
+    }
+  },
+  {
+    "model": "grades.course",
+    "pk": 5,
+    "fields": {
+      "code": "DM105",
+      "name": "Paid Advertising (PPC)",
+      "credits": 3,
+      "description": "Google Ads, Facebook Ads and paid campaigns"
+    }
+  },
+  {
+    "model": "grades.course",
+    "pk": 6,
+    "fields": {
+      "code": "MGMT101",
+      "name": "Strategic Management",
+      "credits": 4,
+      "description": "Business strategy and competitive analysis"
+    }
+  },
+  {
+    "model": "grades.course",
+    "pk": 7,
+    "fields": {
+      "code": "MGMT102",
+      "name": "Project Management",
+      "credits": 3,
+      "description": "Project planning, execution and monitoring"
+    }
+  },
+  {
+    "model": "grades.course",
+    "pk": 8,
+    "fields": {
+      "code": "MGMT103",
+      "name": "Digital Analytics",
+      "credits": 3,
+      "description": "Web analytics and data-driven decision making"
+    }
+  },
+  {
+    "model": "grades.course",
+    "pk": 9,
+    "fields": {
+      "code": "MGMT104",
+      "name": "E-Commerce Management",
+      "credits": 3,
+      "description": "Online business models and platforms"
+    }
+  },
+  {
+    "model": "grades.course",
+    "pk": 10,
+    "fields": {
+      "code": "MGMT105",
+      "name": "Customer Relationship Management",
+      "credits": 2,
+      "description": "CRM systems and customer strategies"
+    }
+  },
+  {
+    "model": "grades.course",
+    "pk": 11,
+    "fields": {
+      "code": "DM201",
+      "name": "Mobile Marketing",
+      "credits": 2,
+      "description": "Mobile app marketing and strategies"
+    }
+  },
+  {
+    "model": "grades.course",
+    "pk": 12,
+    "fields": {
+      "code": "DM202",
+      "name": "Influencer Marketing",
+      "credits": 2,
+      "description": "Working with influencers and brand partnerships"
+    }
+  },
+  {
+    "model": "grades.course",
+    "pk": 13,
+    "fields": {
+      "code": "MGMT201",
+      "name": "Leadership and Team Management",
+      "credits": 3,
+      "description": "Leadership skills and team dynamics"
+    }
+  },
+  {
+    "model": "grades.course",
+    "pk": 14,
+    "fields": {
+      "code": "MGMT202",
+      "name": "Business Intelligence",
+      "credits": 3,
+      "description": "Data analysis for business decisions"
+    }
+  },
+  {
+    "model": "grades.course",
+    "pk": 15,
+    "fields": {
+      "code": "DM203",
+      "name": "Marketing Automation",
+      "credits": 3,
+      "description": "Automated marketing workflows and tools"
+    }
+  }
+]

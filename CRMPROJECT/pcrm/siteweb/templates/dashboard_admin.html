@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="page-header">
+  <div>
+    <div class="page-kicker">Overview</div>
+    <h1 class="page-title">Administration scolaire</h1>
+    <p class="page-subtitle">A clean snapshot of users, students, and notes.</p>
+  </div>
+</div>
+
+<div class="row g-3">
+  <div class="col-md-3">
+    <div class="card stat-card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="bi bi-people me-1"></i>Utilisateurs</h5>
+        <p class="display-6">{{ users_count }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card stat-card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="bi bi-person-workspace me-1"></i>Enseignants</h5>
+        <p class="display-6">{{ teachers_count }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card stat-card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="bi bi-mortarboard me-1"></i>Etudiants</h5>
+        <p class="display-6">{{ students_count }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card stat-card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="bi bi-database me-1"></i>Records CRM</h5>
+        <p class="display-6">{{ records_count }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row g-3 mt-1">
+  <div class="col-md-6">
+    <div class="card stat-card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="bi bi-person-check me-1"></i>Etudiants inscrits</h5>
+        <p class="display-6">{{ total_etudiants }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card stat-card">
+      <div class="card-body">
+        <h5 class="card-title"><i class="bi bi-clipboard2-check me-1"></i>Notes saisies</h5>
+        <p class="display-6">{{ total_notes }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="actions-row mt-4">
+  <a href="{% url 'etudiant_list' %}" class="btn btn-primary"><i class="bi bi-people me-1"></i>Gestion etudiants</a>
+  <a href="{% url 'add_note' %}" class="btn btn-primary"><i class="bi bi-pencil-square me-1"></i>Saisie des notes</a>
+  <a href="/admin/" class="btn btn-muted"><i class="bi bi-shield-lock me-1"></i>Django Admin</a>
+</div>
+
+{% endblock %}

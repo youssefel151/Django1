@@ -1,0 +1,332 @@
+[
+  {
+    "model": "grades.exam",
+    "pk": 1,
+    "fields": {
+      "course": 1,
+      "name": "Examen Mi-Semestre",
+      "exam_type": "midterm",
+      "date": "2026-01-15",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 2,
+    "fields": {
+      "course": 1,
+      "name": "Examen Final",
+      "exam_type": "final",
+      "date": "2026-02-20",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 3,
+    "fields": {
+      "course": 2,
+      "name": "Examen Mi-Semestre",
+      "exam_type": "midterm",
+      "date": "2026-01-15",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 4,
+    "fields": {
+      "course": 2,
+      "name": "Examen Final",
+      "exam_type": "final",
+      "date": "2026-02-20",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 5,
+    "fields": {
+      "course": 3,
+      "name": "Examen Mi-Semestre",
+      "exam_type": "midterm",
+      "date": "2026-01-15",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 6,
+    "fields": {
+      "course": 3,
+      "name": "Examen Final",
+      "exam_type": "final",
+      "date": "2026-02-20",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 7,
+    "fields": {
+      "course": 4,
+      "name": "Examen Mi-Semestre",
+      "exam_type": "midterm",
+      "date": "2026-01-15",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 8,
+    "fields": {
+      "course": 4,
+      "name": "Examen Final",
+      "exam_type": "final",
+      "date": "2026-02-20",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 9,
+    "fields": {
+      "course": 5,
+      "name": "Examen Mi-Semestre",
+      "exam_type": "midterm",
+      "date": "2026-01-15",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 10,
+    "fields": {
+      "course": 5,
+      "name": "Examen Final",
+      "exam_type": "final",
+      "date": "2026-02-20",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 11,
+    "fields": {
+      "course": 6,
+      "name": "Examen Mi-Semestre",
+      "exam_type": "midterm",
+      "date": "2026-01-15",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 12,
+    "fields": {
+      "course": 6,
+      "name": "Examen Final",
+      "exam_type": "final",
+      "date": "2026-02-20",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 13,
+    "fields": {
+      "course": 7,
+      "name": "Examen Mi-Semestre",
+      "exam_type": "midterm",
+      "date": "2026-01-15",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 14,
+    "fields": {
+      "course": 7,
+      "name": "Examen Final",
+      "exam_type": "final",
+      "date": "2026-02-20",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 15,
+    "fields": {
+      "course": 8,
+      "name": "Examen Mi-Semestre",
+      "exam_type": "midterm",
+      "date": "2026-01-15",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 16,
+    "fields": {
+      "course": 8,
+      "name": "Examen Final",
+      "exam_type": "final",
+      "date": "2026-02-20",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 17,
+    "fields": {
+      "course": 9,
+      "name": "Examen Mi-Semestre",
+      "exam_type": "midterm",
+      "date": "2026-01-15",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 18,
+    "fields": {
+      "course": 9,
+      "name": "Examen Final",
+      "exam_type": "final",
+      "date": "2026-02-20",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 19,
+    "fields": {
+      "course": 10,
+      "name": "Examen Mi-Semestre",
+      "exam_type": "midterm",
+      "date": "2026-01-15",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 20,
+    "fields": {
+      "course": 10,
+      "name": "Examen Final",
+      "exam_type": "final",
+      "date": "2026-02-20",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 21,
+    "fields": {
+      "course": 11,
+      "name": "Examen Mi-Semestre",
+      "exam_type": "midterm",
+      "date": "2026-01-15",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 22,
+    "fields": {
+      "course": 11,
+      "name": "Examen Final",
+      "exam_type": "final",
+      "date": "2026-02-20",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 23,
+    "fields": {
+      "course": 12,
+      "name": "Examen Mi-Semestre",
+      "exam_type": "midterm",
+      "date": "2026-01-15",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 24,
+    "fields": {
+      "course": 12,
+      "name": "Examen Final",
+      "exam_type": "final",
+      "date": "2026-02-20",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 25,
+    "fields": {
+      "course": 13,
+      "name": "Examen Mi-Semestre",
+      "exam_type": "midterm",
+      "date": "2026-01-15",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 26,
+    "fields": {
+      "course": 13,
+      "name": "Examen Final",
+      "exam_type": "final",
+      "date": "2026-02-20",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 27,
+    "fields": {
+      "course": 14,
+      "name": "Examen Mi-Semestre",
+      "exam_type": "midterm",
+      "date": "2026-01-15",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 28,
+    "fields": {
+      "course": 14,
+      "name": "Examen Final",
+      "exam_type": "final",
+      "date": "2026-02-20",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 29,
+    "fields": {
+      "course": 15,
+      "name": "Examen Mi-Semestre",
+      "exam_type": "midterm",
+      "date": "2026-01-15",
+      "max_score": 100.0
+    }
+  },
+  {
+    "model": "grades.exam",
+    "pk": 30,
+    "fields": {
+      "course": 15,
+      "name": "Examen Final",
+      "exam_type": "final",
+      "date": "2026-02-20",
+      "max_score": 100.0
+    }
+  }
+]

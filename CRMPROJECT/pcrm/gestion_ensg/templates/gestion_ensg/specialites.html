@@ -1,0 +1,51 @@
+{% extends 'gestion_ensg/base.html' %}
+
+{% block content %}
+<div class="row g-4">
+    <div class="col-md-5">
+        <h1>Ajouter une specialite</h1>
+
+        <form method="POST" class="mt-3">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-primary">Ajouter</button>
+        </form>
+    </div>
+
+    <div class="col-md-7">
+        <h2>Liste des specialites</h2>
+
+        <table class="table table-striped mt-3">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Nom</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for specialite in specialites %}
+                    <tr>
+                        <td>{{ specialite.nom }}</td>
+                        <td>
+                            <a href="{% url 'gestion_ensg:update_specialite' specialite.id %}" class="btn btn-sm btn-outline-primary">
+                                Modifier
+                            </a>
+
+                            <form method="POST" action="{% url 'gestion_ensg:delete_specialite' specialite.id %}" class="d-inline">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-sm btn-outline-danger">
+                                    Supprimer
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                {% empty %}
+                    <tr>
+                        <td colspan="2" class="text-center text-muted">Aucune specialite trouvee.</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

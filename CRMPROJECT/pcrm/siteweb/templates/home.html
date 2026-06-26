@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  {% if user.is_authenticated %}
+    <div class="page-header">
+      <div>
+        <div class="page-kicker">CRM workspace</div>
+        <h1 class="page-title">Records List</h1>
+        <p class="page-subtitle">Manage contact records with a clearer, more focused workspace.</p>
+      </div>
+      <a href="{% url 'add_record' %}" class="btn btn-primary">
+        <i class="bi bi-plus-lg me-1"></i>Add record
+      </a>
+    </div>
+
+    <div class="table-wrap">
+      <div class="table-responsive">
+        <table class="table table-hover align-middle">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">Created At</th>
+              <th scope="col">Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Phone</th>
+              <th scope="col">Address</th>
+              <th scope="col">City</th>
+              <th scope="col">State</th>
+              <th scope="col">Zipcode</th>
+              <th scope="col">ID</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% if records %}
+              {% for record in records %}
+                <tr>
+                  <td>{{ record.created_at }}</td>
+                  <td><strong>{{ record.first_name }} {{ record.last_name }}</strong></td>
+                  <td>{{ record.email }}</td>
+                  <td>{{ record.phone }}</td>
+                  <td>{{ record.address }}</td>
+                  <td>{{ record.city }}</td>
+                  <td>{{ record.state }}</td>
+                  <td>{{ record.zipcode }}</td>
+                  <td><a class="btn btn-sm btn-outline-secondary" href="{% url 'record' record.id %}">#{{ record.id }}</a></td>
+                </tr>
+              {% endfor %}
+            {% else %}
+              <tr>
+                <td colspan="9" class="empty-state">No records found.</td>
+              </tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  {% else %}
+    <section class="auth-panel">
+      <div class="auth-hero">
+        <div>
+          <div class="page-kicker text-white-50">School CRM</div>
+          <h1>Academic management made clear.</h1>
+          <p>Track students, grades, teachers, inscriptions, and school records from one clean dashboard.</p>
+        </div>
+      </div>
+      <div class="auth-card">
+        <h2>Welcome back</h2>
+        <p>Sign in to continue to your school workspace.</p>
+        <form method="post" action="{% url 'home' %}">
+          {% csrf_token %}
+          <div class="mb-3">
+            <label class="form-label" for="username">Username</label>
+            <input type="text" id="username" class="form-control" name="username" placeholder="Enter username" required>
+          </div>
+          <div class="mb-4">
+            <label class="form-label" for="password">Password</label>
+            <input type="password" id="password" class="form-control" name="password" placeholder="Enter password" required>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">
+            <i class="bi bi-box-arrow-in-right me-1"></i>Login
+          </button>
+        </form>
+      </div>
+    </section>
+{% endif %}
+
+{% endblock %}
