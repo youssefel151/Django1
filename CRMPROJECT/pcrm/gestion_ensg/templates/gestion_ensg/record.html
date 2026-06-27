@@ -14,6 +14,10 @@
 
 <p><strong>Specialite :</strong> {{ enseignant.specialite }}</p>
 
+<p><strong>Profil :</strong> {{ enseignant.profil|default:"-" }}</p>
+
+<p><strong>Grade :</strong> {{ enseignant.grade|default:"-" }}</p>
+
 <p><strong>Date recrutement :</strong> {{ enseignant.date_recrutement }}</p>
 
 <div class="d-flex gap-2 mt-4">
