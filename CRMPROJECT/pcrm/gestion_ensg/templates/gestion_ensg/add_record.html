@@ -1,10 +1,11 @@
 {% extends 'gestion_ensg/base.html' %}
 
-{% block content %}
+{% block scolarite_content %}
 
 <div class="row justify-content-center">
     <div class="col-lg-7">
-        <div class="border rounded p-4 bg-light">
+        <div class="card">
+            <div class="card-body">
             <h2 class="mb-4">Ajouter Enseignant</h2>
 
             <form method="POST">
@@ -23,6 +24,7 @@
                 <button type="submit" class="btn btn-primary">Ajouter</button>
                 <a href="{% url 'gestion_ensg:home' %}" class="btn btn-secondary">Annuler</a>
             </form>
+            </div>
         </div>
     </div>
 </div>

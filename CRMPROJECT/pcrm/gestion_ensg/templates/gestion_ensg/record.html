@@ -1,7 +1,9 @@
 {% extends 'gestion_ensg/base.html' %}
 
-{% block content %}
+{% block scolarite_content %}
 
+<div class="card">
+    <div class="card-body">
 <h2>Details Enseignant</h2>
 
 <p><strong>Nom :</strong> {{ enseignant.nom }}</p>
@@ -32,6 +34,8 @@
     <a href="{% url 'gestion_ensg:home' %}" class="btn btn-secondary">
         Retour
     </a>
+</div>
+    </div>
 </div>
 
 {% endblock %}

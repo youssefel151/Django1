@@ -1,38 +1,39 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gestion ENSG</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark mb-4">
-        <div class="container">
-            <a class="navbar-brand" href="{% url 'gestion_ensg:home' %}">Gestion ENSG</a>
-            <div class="navbar-nav">
-                <a class="nav-link" href="{% url 'gestion_ensg:add' %}">Ajouter</a>
-                <a class="nav-link" href="{% url 'gestion_ensg:specialites' %}">Specialites</a>
-                <a class="nav-link" href="{% url 'gestion_ensg:profils' %}">Profils</a>
-                <a class="nav-link" href="{% url 'gestion_ensg:grades' %}">Grades</a>
-            </div>
-        </div>
-    </nav>
+{% extends 'base.html' %}
 
-    <main class="container">
-        {% if messages %}
-            {% for message in messages %}
-                <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
-                    {{ message }}
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Fermer"></button>
-                </div>
-            {% endfor %}
-        {% endif %}
+{% block title %}Gestion ENSG | CRM PROJECT{% endblock %}
 
-        {% block content %}
-        {% endblock %}
-    </main>
+{% block content %}
+<div class="page-header">
+    <div>
+        <div class="page-kicker">Gestion ENSG</div>
+        <h1 class="page-title">Gestion ENSG</h1>
+        <p class="page-subtitle">Manage teachers, specialities, profiles, and grades from the school CRM workspace.</p>
+    </div>
+    <div class="actions-row">
+        <a href="{% url 'home' %}" class="btn btn-muted">
+            <i class="bi bi-house-door me-1"></i>Home
+        </a>
+        <a href="{% url 'gestion_ensg:add' %}" class="btn btn-primary">
+            <i class="bi bi-plus-lg me-1"></i>Ajouter enseignant
+        </a>
+    </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<div class="actions-row mb-4">
+    <a class="btn btn-outline-secondary" href="{% url 'gestion_ensg:home' %}">
+        <i class="bi bi-grid me-1"></i>Dashboard
+    </a>
+    <a class="btn btn-outline-secondary" href="{% url 'gestion_ensg:specialites' %}">
+        <i class="bi bi-tags me-1"></i>Specialites
+    </a>
+    <a class="btn btn-outline-secondary" href="{% url 'gestion_ensg:profils' %}">
+        <i class="bi bi-person-badge me-1"></i>Profils
+    </a>
+    <a class="btn btn-outline-secondary" href="{% url 'gestion_ensg:grades' %}">
+        <i class="bi bi-award me-1"></i>Grades
+    </a>
+</div>
+
+{% block scolarite_content %}
+{% endblock %}
+{% endblock %}

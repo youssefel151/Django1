@@ -1,9 +1,11 @@
 {% extends 'gestion_ensg/base.html' %}
 
-{% block content %}
+{% block scolarite_content %}
 <div class="row g-4">
     <div class="col-md-5">
-        <h1>Ajouter un profil</h1>
+        <div class="card">
+            <div class="card-body">
+        <h2>Ajouter un profil</h2>
         <p class="text-muted">Total: {{ profils_count }}</p>
 
         <form method="POST" class="mt-3">
@@ -14,12 +16,13 @@
             </div>
             <button type="submit" class="btn btn-primary">Ajouter</button>
         </form>
+            </div>
+        </div>
     </div>
 
     <div class="col-md-7">
-        <h2>Liste des profils</h2>
-
-        <table class="table table-striped mt-3 align-middle">
+        <div class="table-wrap">
+        <table class="table table-hover align-middle">
             <thead class="table-dark">
                 <tr>
                     <th scope="col">Nom</th>
@@ -52,6 +55,7 @@
                 {% endfor %}
             </tbody>
         </table>
+        </div>
     </div>
 </div>
 {% endblock %}
